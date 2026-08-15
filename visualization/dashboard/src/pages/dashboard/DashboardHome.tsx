@@ -16,8 +16,7 @@ import {
 import { cn, timeAgo, severityColor, activityColor } from '@/utils';
 
 // Sampled data for charts (keep renders fast)
-const coverageSample = coverageTimeline.filter((_, i) => i % 5 === 0).slice(-60);
-const healthSample   = systemHealth.filter((_, i) => i % 4 === 0).slice(-36);
+const coverageSample = coverageTimeline.filter((_, i) => i % 5 === 0);const healthSample   = systemHealth.filter((_, i) => i % 4 === 0).slice(-36);
 
 const CustomTooltipStyle = {
   background: 'rgba(13,21,38,0.97)',
@@ -78,11 +77,11 @@ export default function DashboardHome() {
         {/* Coverage Growth */}
         <div className="lg:col-span-2 glass-card p-5">
           <div className="flex items-center justify-between mb-4">
-            <div>
-              <p className="text-sm font-semibold text-white">Coverage Growth</p>
-              <p className="text-xs text-vid-subtext mt-0.5">Kernel code coverage over 30-day session</p>
-            </div>
-            <Badge variant="blue">87.4% current</Badge>
+<div>
+  <p className="text-sm font-semibold text-white">Coverage Growth</p>
+  <p className="text-xs text-vid-subtext mt-0.5">Kernel code coverage — stock test kernel baseline run</p>
+</div>
+<Badge variant="blue">{kpiSummary.totalCoverage.toFixed(1)}% current</Badge>
           </div>
           <ResponsiveContainer width="100%" height={220}>
             <AreaChart data={coverageSample}>

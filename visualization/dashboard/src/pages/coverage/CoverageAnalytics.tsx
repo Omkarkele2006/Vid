@@ -7,7 +7,7 @@ import {
 import { Badge } from '@/components/ui/Badge';
 import { KpiCard } from '@/components/cards/KpiCard';
 import { Target, TrendingUp, Layers, Zap } from 'lucide-react';
-import { coverageTimeline, policyTimeline, benchmarks } from '@/mock-data';
+import { coverageTimeline, policyTimeline, benchmarks, kpiSummary } from '@/mock-data';
 
 const sample = coverageTimeline.filter((_, i) => i % 4 === 0);
 const policyColors: Record<string, string> = {
@@ -27,10 +27,10 @@ export default function CoverageAnalytics() {
 
       {/* KPIs */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-        <KpiCard title="Peak Coverage"   value={87.4}    format="percent" decimals={1} icon={Target}     accent="blue"   delta={5.2} deltaLabel="vs start"    index={0} />
-        <KpiCard title="Total Edges"     value={142830}  format="compact"             icon={Layers}     accent="purple" delta={8.1} deltaLabel="24h"          index={1} />
-        <KpiCard title="New Edges/Hour"  value={1847}    format="compact"             icon={TrendingUp} accent="cyan"   delta={231} deltaLabel="vs yesterday" index={2} />
-        <KpiCard title="Programs Exec"   value={482319}  format="compact"             icon={Zap}        accent="green"  delta={8.7} deltaLabel="24h"          index={3} />
+<KpiCard title="Peak Coverage"   value={kpiSummary.totalCoverage} format="percent" decimals={1} icon={Target}     accent="blue"   delta={0} deltaLabel="vs start"    index={0} />
+<KpiCard title="Total Edges"     value={coverageTimeline[coverageTimeline.length - 1]?.edges ?? 0}  format="compact" icon={Layers}     accent="purple" delta={0} deltaLabel="24h"          index={1} />
+<KpiCard title="New Edges/Hour"  value={kpiSummary.newEdgesPerHour} format="compact" icon={TrendingUp} accent="cyan"   delta={0} deltaLabel="vs yesterday" index={2} />
+<KpiCard title="Programs Exec"   value={kpiSummary.totalExecutions} format="compact" icon={Zap}        accent="green"  delta={0} deltaLabel="24h"          index={3} />
       </div>
 
       {/* Coverage Growth */}
@@ -38,7 +38,7 @@ export default function CoverageAnalytics() {
         <div className="flex items-center justify-between mb-4">
           <div>
             <p className="text-sm font-semibold text-white">Coverage Growth Over Time</p>
-            <p className="text-xs text-vid-subtext mt-0.5">30-day kernel exploration progress</p>
+            <p className="text-xs text-vid-subtext mt-0.5">Kernel exploration progress — stock test kernel baseline run</p>
           </div>
           <Badge variant="blue">87.4% peak</Badge>
         </div>
