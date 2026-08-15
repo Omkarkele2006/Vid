@@ -1,0 +1,6050 @@
+[
+  {
+    "timestamp": "2026-08-13T08:23:57+00:00",
+    "coverage": 8205,
+    "edges": 8205,
+    "newEdges": 0,
+    "executions": 727,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:24:07+00:00",
+    "coverage": 11488,
+    "edges": 11488,
+    "newEdges": 3283,
+    "executions": 13,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:24:17+00:00",
+    "coverage": 11619,
+    "edges": 11619,
+    "newEdges": 131,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:24:27+00:00",
+    "coverage": 11736,
+    "edges": 11736,
+    "newEdges": 117,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:24:37+00:00",
+    "coverage": 11736,
+    "edges": 11736,
+    "newEdges": 0,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:24:47+00:00",
+    "coverage": 11736,
+    "edges": 11736,
+    "newEdges": 0,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:24:57+00:00",
+    "coverage": 11736,
+    "edges": 11736,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:25:07+00:00",
+    "coverage": 11736,
+    "edges": 11736,
+    "newEdges": 0,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:25:17+00:00",
+    "coverage": 11747,
+    "edges": 11747,
+    "newEdges": 11,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:25:27+00:00",
+    "coverage": 11747,
+    "edges": 11747,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:25:37+00:00",
+    "coverage": 11812,
+    "edges": 11812,
+    "newEdges": 65,
+    "executions": 12,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:25:47+00:00",
+    "coverage": 11812,
+    "edges": 11812,
+    "newEdges": 0,
+    "executions": 16,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:25:57+00:00",
+    "coverage": 11812,
+    "edges": 11812,
+    "newEdges": 0,
+    "executions": 12,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:26:07+00:00",
+    "coverage": 11837,
+    "edges": 11837,
+    "newEdges": 25,
+    "executions": 22,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:26:17+00:00",
+    "coverage": 11837,
+    "edges": 11837,
+    "newEdges": 0,
+    "executions": 36,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:26:27+00:00",
+    "coverage": 11842,
+    "edges": 11842,
+    "newEdges": 5,
+    "executions": 39,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:26:37+00:00",
+    "coverage": 14406,
+    "edges": 14406,
+    "newEdges": 2564,
+    "executions": 101,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:26:47+00:00",
+    "coverage": 14481,
+    "edges": 14481,
+    "newEdges": 75,
+    "executions": 125,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:26:57+00:00",
+    "coverage": 14485,
+    "edges": 14485,
+    "newEdges": 4,
+    "executions": 34,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:27:07+00:00",
+    "coverage": 15210,
+    "edges": 15210,
+    "newEdges": 725,
+    "executions": 11,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:27:17+00:00",
+    "coverage": 15210,
+    "edges": 15210,
+    "newEdges": 0,
+    "executions": 11,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:27:27+00:00",
+    "coverage": 15211,
+    "edges": 15211,
+    "newEdges": 1,
+    "executions": 12,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:27:37+00:00",
+    "coverage": 16425,
+    "edges": 16425,
+    "newEdges": 1214,
+    "executions": 11,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:27:47+00:00",
+    "coverage": 16425,
+    "edges": 16425,
+    "newEdges": 0,
+    "executions": 10,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:27:57+00:00",
+    "coverage": 16665,
+    "edges": 16665,
+    "newEdges": 240,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:28:07+00:00",
+    "coverage": 16665,
+    "edges": 16665,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:28:17+00:00",
+    "coverage": 16842,
+    "edges": 16842,
+    "newEdges": 177,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:28:27+00:00",
+    "coverage": 16842,
+    "edges": 16842,
+    "newEdges": 0,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:28:37+00:00",
+    "coverage": 16844,
+    "edges": 16844,
+    "newEdges": 2,
+    "executions": 11,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:28:47+00:00",
+    "coverage": 16847,
+    "edges": 16847,
+    "newEdges": 3,
+    "executions": 12,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:28:57+00:00",
+    "coverage": 16847,
+    "edges": 16847,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:29:07+00:00",
+    "coverage": 16847,
+    "edges": 16847,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:29:17+00:00",
+    "coverage": 17932,
+    "edges": 17932,
+    "newEdges": 1085,
+    "executions": 71,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:29:27+00:00",
+    "coverage": 18012,
+    "edges": 18012,
+    "newEdges": 80,
+    "executions": 62,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:29:37+00:00",
+    "coverage": 18266,
+    "edges": 18266,
+    "newEdges": 254,
+    "executions": 47,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:29:47+00:00",
+    "coverage": 18268,
+    "edges": 18268,
+    "newEdges": 2,
+    "executions": 28,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:29:57+00:00",
+    "coverage": 18268,
+    "edges": 18268,
+    "newEdges": 0,
+    "executions": 23,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:30:07+00:00",
+    "coverage": 18268,
+    "edges": 18268,
+    "newEdges": 0,
+    "executions": 41,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:30:17+00:00",
+    "coverage": 19245,
+    "edges": 19245,
+    "newEdges": 977,
+    "executions": 27,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:30:27+00:00",
+    "coverage": 20138,
+    "edges": 20138,
+    "newEdges": 893,
+    "executions": 46,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:30:37+00:00",
+    "coverage": 20329,
+    "edges": 20329,
+    "newEdges": 191,
+    "executions": 29,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:30:47+00:00",
+    "coverage": 20355,
+    "edges": 20355,
+    "newEdges": 26,
+    "executions": 21,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:30:57+00:00",
+    "coverage": 20355,
+    "edges": 20355,
+    "newEdges": 0,
+    "executions": 25,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:31:07+00:00",
+    "coverage": 20355,
+    "edges": 20355,
+    "newEdges": 0,
+    "executions": 21,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:31:17+00:00",
+    "coverage": 20461,
+    "edges": 20461,
+    "newEdges": 106,
+    "executions": 14,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:31:27+00:00",
+    "coverage": 20461,
+    "edges": 20461,
+    "newEdges": 0,
+    "executions": 13,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:31:37+00:00",
+    "coverage": 20461,
+    "edges": 20461,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:31:47+00:00",
+    "coverage": 20461,
+    "edges": 20461,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:31:57+00:00",
+    "coverage": 20461,
+    "edges": 20461,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:32:07+00:00",
+    "coverage": 20461,
+    "edges": 20461,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:32:17+00:00",
+    "coverage": 20461,
+    "edges": 20461,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:32:27+00:00",
+    "coverage": 20461,
+    "edges": 20461,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:32:37+00:00",
+    "coverage": 20461,
+    "edges": 20461,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:32:47+00:00",
+    "coverage": 20474,
+    "edges": 20474,
+    "newEdges": 13,
+    "executions": 13,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:32:57+00:00",
+    "coverage": 20515,
+    "edges": 20515,
+    "newEdges": 41,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:33:07+00:00",
+    "coverage": 20515,
+    "edges": 20515,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:33:17+00:00",
+    "coverage": 20515,
+    "edges": 20515,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:33:27+00:00",
+    "coverage": 20515,
+    "edges": 20515,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:33:37+00:00",
+    "coverage": 21349,
+    "edges": 21349,
+    "newEdges": 834,
+    "executions": 31,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:33:47+00:00",
+    "coverage": 22034,
+    "edges": 22034,
+    "newEdges": 685,
+    "executions": 87,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:33:57+00:00",
+    "coverage": 22038,
+    "edges": 22038,
+    "newEdges": 4,
+    "executions": 70,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:34:07+00:00",
+    "coverage": 22099,
+    "edges": 22099,
+    "newEdges": 61,
+    "executions": 88,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:42:20+00:00",
+    "coverage": 24323,
+    "edges": 24323,
+    "newEdges": 2224,
+    "executions": 25,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:42:30+00:00",
+    "coverage": 24497,
+    "edges": 24497,
+    "newEdges": 174,
+    "executions": 24,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:42:40+00:00",
+    "coverage": 25176,
+    "edges": 25176,
+    "newEdges": 679,
+    "executions": 37,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:42:50+00:00",
+    "coverage": 25251,
+    "edges": 25251,
+    "newEdges": 75,
+    "executions": 20,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:43:00+00:00",
+    "coverage": 29103,
+    "edges": 29103,
+    "newEdges": 3852,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:43:10+00:00",
+    "coverage": 30078,
+    "edges": 30078,
+    "newEdges": 975,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:43:20+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 294,
+    "executions": 27,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:43:30+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:43:40+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:43:50+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:44:00+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:44:10+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:44:20+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:44:30+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:44:40+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:44:50+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:45:00+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:45:10+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:45:20+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:45:30+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:45:40+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:45:50+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:46:00+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:46:10+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:46:20+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:46:30+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:46:40+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:46:50+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:47:00+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:47:10+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:47:20+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:47:30+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:47:40+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:47:50+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:48:00+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:48:10+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:48:20+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:48:30+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:48:40+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:48:50+00:00",
+    "coverage": 30372,
+    "edges": 30372,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:49:00+00:00",
+    "coverage": 34938,
+    "edges": 34938,
+    "newEdges": 4566,
+    "executions": 29,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:49:10+00:00",
+    "coverage": 36490,
+    "edges": 36490,
+    "newEdges": 1552,
+    "executions": 26,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:49:20+00:00",
+    "coverage": 36490,
+    "edges": 36490,
+    "newEdges": 0,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:49:30+00:00",
+    "coverage": 36686,
+    "edges": 36686,
+    "newEdges": 196,
+    "executions": 14,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:49:40+00:00",
+    "coverage": 37465,
+    "edges": 37465,
+    "newEdges": 779,
+    "executions": 16,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:49:50+00:00",
+    "coverage": 39111,
+    "edges": 39111,
+    "newEdges": 1646,
+    "executions": 19,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:50:00+00:00",
+    "coverage": 39111,
+    "edges": 39111,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:50:10+00:00",
+    "coverage": 41687,
+    "edges": 41687,
+    "newEdges": 2576,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:50:20+00:00",
+    "coverage": 41923,
+    "edges": 41923,
+    "newEdges": 236,
+    "executions": 11,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:50:30+00:00",
+    "coverage": 42751,
+    "edges": 42751,
+    "newEdges": 828,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:50:40+00:00",
+    "coverage": 42854,
+    "edges": 42854,
+    "newEdges": 103,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:50:50+00:00",
+    "coverage": 43026,
+    "edges": 43026,
+    "newEdges": 172,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:51:00+00:00",
+    "coverage": 46827,
+    "edges": 46827,
+    "newEdges": 3801,
+    "executions": 10,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:51:10+00:00",
+    "coverage": 47623,
+    "edges": 47623,
+    "newEdges": 796,
+    "executions": 10,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:51:20+00:00",
+    "coverage": 52412,
+    "edges": 52412,
+    "newEdges": 4789,
+    "executions": 14,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:51:30+00:00",
+    "coverage": 52810,
+    "edges": 52810,
+    "newEdges": 398,
+    "executions": 13,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:51:40+00:00",
+    "coverage": 53400,
+    "edges": 53400,
+    "newEdges": 590,
+    "executions": 17,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:51:50+00:00",
+    "coverage": 54565,
+    "edges": 54565,
+    "newEdges": 1165,
+    "executions": 36,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:52:00+00:00",
+    "coverage": 55150,
+    "edges": 55150,
+    "newEdges": 585,
+    "executions": 31,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:52:10+00:00",
+    "coverage": 57013,
+    "edges": 57013,
+    "newEdges": 1863,
+    "executions": 34,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:52:20+00:00",
+    "coverage": 58416,
+    "edges": 58416,
+    "newEdges": 1403,
+    "executions": 141,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:52:30+00:00",
+    "coverage": 58557,
+    "edges": 58557,
+    "newEdges": 141,
+    "executions": 168,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:52:40+00:00",
+    "coverage": 58796,
+    "edges": 58796,
+    "newEdges": 239,
+    "executions": 173,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:52:50+00:00",
+    "coverage": 58925,
+    "edges": 58925,
+    "newEdges": 129,
+    "executions": 166,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:53:00+00:00",
+    "coverage": 58970,
+    "edges": 58970,
+    "newEdges": 45,
+    "executions": 138,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:53:10+00:00",
+    "coverage": 59379,
+    "edges": 59379,
+    "newEdges": 409,
+    "executions": 134,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:53:20+00:00",
+    "coverage": 59908,
+    "edges": 59908,
+    "newEdges": 529,
+    "executions": 14,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:53:30+00:00",
+    "coverage": 59908,
+    "edges": 59908,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:53:40+00:00",
+    "coverage": 59908,
+    "edges": 59908,
+    "newEdges": 0,
+    "executions": 121,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:53:50+00:00",
+    "coverage": 59908,
+    "edges": 59908,
+    "newEdges": 0,
+    "executions": 128,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:54:00+00:00",
+    "coverage": 60062,
+    "edges": 60062,
+    "newEdges": 154,
+    "executions": 114,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:54:10+00:00",
+    "coverage": 60072,
+    "edges": 60072,
+    "newEdges": 10,
+    "executions": 23,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:54:20+00:00",
+    "coverage": 60072,
+    "edges": 60072,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:54:30+00:00",
+    "coverage": 60072,
+    "edges": 60072,
+    "newEdges": 0,
+    "executions": 16,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:54:40+00:00",
+    "coverage": 60134,
+    "edges": 60134,
+    "newEdges": 62,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:54:50+00:00",
+    "coverage": 60134,
+    "edges": 60134,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:55:00+00:00",
+    "coverage": 60134,
+    "edges": 60134,
+    "newEdges": 0,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:55:10+00:00",
+    "coverage": 60134,
+    "edges": 60134,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:55:20+00:00",
+    "coverage": 60134,
+    "edges": 60134,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:55:30+00:00",
+    "coverage": 60134,
+    "edges": 60134,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:55:40+00:00",
+    "coverage": 60134,
+    "edges": 60134,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:55:50+00:00",
+    "coverage": 60134,
+    "edges": 60134,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:56:00+00:00",
+    "coverage": 60134,
+    "edges": 60134,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:56:10+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 3,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:56:20+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:56:30+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:56:40+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:56:50+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:57:00+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:57:10+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:57:20+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:57:30+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:57:40+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:57:50+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:58:00+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:58:10+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:58:20+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:58:30+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:58:40+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:58:50+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:59:00+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:59:10+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:59:19+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:59:29+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:59:39+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:59:49+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T08:59:59+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:00:09+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:00:19+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:00:29+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:00:39+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:00:49+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:00:59+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:01:09+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:01:19+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:01:29+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:01:39+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:01:49+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:01:59+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:02:09+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:02:19+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:02:29+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:02:39+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:02:49+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:02:59+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:03:09+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:03:19+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:03:29+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:03:39+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:03:49+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:03:59+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:04:09+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:04:19+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:04:29+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:04:39+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:04:49+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:30:23+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:30:33+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:30:43+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:30:53+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:31:02+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:31:12+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:31:22+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:31:32+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:31:42+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:31:51+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:32:01+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:32:11+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:32:21+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:32:31+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:32:41+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:32:51+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:33:01+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:33:11+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:33:21+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:33:30+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:33:40+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:33:50+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:33:59+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:34:09+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:34:19+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:34:28+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:34:38+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:34:48+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:34:58+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:35:08+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:35:17+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:35:27+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:35:37+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:35:47+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:35:57+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:36:07+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:36:17+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:36:27+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:36:36+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:36:46+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:36:56+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:37:05+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:37:15+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:37:25+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:37:34+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T09:37:44+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T12:37:57+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:16:51+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:17:01+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:17:11+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 10,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:17:21+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:17:31+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:17:41+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:17:51+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 10,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:18:01+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 14,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:18:11+00:00",
+    "coverage": 60137,
+    "edges": 60137,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:18:21+00:00",
+    "coverage": 60149,
+    "edges": 60149,
+    "newEdges": 12,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:18:31+00:00",
+    "coverage": 60149,
+    "edges": 60149,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:18:41+00:00",
+    "coverage": 60149,
+    "edges": 60149,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:18:51+00:00",
+    "coverage": 60149,
+    "edges": 60149,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:19:01+00:00",
+    "coverage": 60149,
+    "edges": 60149,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T14:19:11+00:00",
+    "coverage": 60159,
+    "edges": 60159,
+    "newEdges": 10,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:10:34+00:00",
+    "coverage": 60160,
+    "edges": 60160,
+    "newEdges": 1,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:10:44+00:00",
+    "coverage": 60160,
+    "edges": 60160,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:10:54+00:00",
+    "coverage": 60160,
+    "edges": 60160,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:11:04+00:00",
+    "coverage": 60160,
+    "edges": 60160,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:11:14+00:00",
+    "coverage": 60160,
+    "edges": 60160,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:11:23+00:00",
+    "coverage": 60160,
+    "edges": 60160,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:11:33+00:00",
+    "coverage": 60167,
+    "edges": 60167,
+    "newEdges": 7,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:11:43+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 1,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:11:52+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:12:02+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:12:12+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:12:22+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:12:32+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:12:42+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:12:52+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:13:01+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:13:11+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:13:21+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:13:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:13:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:13:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:14:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:14:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:14:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:14:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:14:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:14:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:15:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:15:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:15:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:15:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:15:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:15:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:16:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:16:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:16:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:16:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:16:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:16:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:17:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:17:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:17:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:17:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:17:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:17:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:18:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:18:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:18:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:18:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:18:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:18:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:19:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:19:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:19:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:19:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:19:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:19:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:20:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:20:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:20:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:20:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:20:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:20:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:21:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:21:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:21:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:21:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:21:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:21:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:22:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:22:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:22:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:22:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:22:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:22:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:23:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:23:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:23:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:23:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:23:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:23:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:24:00+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:24:10+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:24:20+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:24:30+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:24:40+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 1,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:24:50+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:35:31+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:35:41+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:35:51+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:36:01+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:36:11+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:36:21+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:36:31+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:36:41+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:36:51+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:47:16+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:47:26+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T15:47:36+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:18:04+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:18:14+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:18:24+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:18:34+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:18:44+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:18:54+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:19:04+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:19:14+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:19:24+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:19:34+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:19:44+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:19:54+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:20:04+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:20:14+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:20:24+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:20:34+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:20:44+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:20:54+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:21:04+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:21:14+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:21:24+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:21:34+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:21:44+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:21:54+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:22:04+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:22:14+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:22:24+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:22:34+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 2,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:22:44+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:22:54+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:23:04+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:23:14+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:23:24+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:23:34+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:23:44+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:23:54+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:24:04+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:24:14+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:24:24+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:24:34+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:24:44+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:24:54+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:25:04+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:25:14+00:00",
+    "coverage": 60168,
+    "edges": 60168,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:25:24+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 76,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:25:34+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:25:44+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:25:54+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:26:04+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:26:14+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:26:24+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:26:34+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:26:44+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:26:54+00:00",
+    "coverage": 60244,
+    "edges": 60244,
+    "newEdges": 0,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:27:04+00:00",
+    "coverage": 60281,
+    "edges": 60281,
+    "newEdges": 37,
+    "executions": 9,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:27:14+00:00",
+    "coverage": 60281,
+    "edges": 60281,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:27:24+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 1,
+    "executions": 11,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:27:34+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:27:44+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:27:54+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:28:04+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:28:14+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:28:24+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:28:34+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:28:44+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:28:54+00:00",
+    "coverage": 60282,
+    "edges": 60282,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:29:04+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 1,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:29:14+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:29:24+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:29:34+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:29:44+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:29:54+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:30:04+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:30:14+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:30:24+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:30:34+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:30:44+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:30:54+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:31:04+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:31:14+00:00",
+    "coverage": 60283,
+    "edges": 60283,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:31:24+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 4,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:31:34+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:31:44+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:31:54+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:32:04+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:32:14+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:32:24+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:32:34+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:32:44+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 3,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:32:54+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:33:04+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:33:14+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:33:24+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:33:34+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:33:44+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:33:54+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:34:04+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:34:14+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:34:24+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:34:34+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:34:44+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:34:54+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:35:04+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:35:14+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:35:24+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:35:34+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:35:44+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:35:54+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:36:04+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:36:14+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:36:24+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:36:34+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:36:44+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:36:54+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:37:04+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:37:14+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:37:24+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:37:34+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:37:44+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:37:54+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:38:04+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:38:13+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:38:23+00:00",
+    "coverage": 60287,
+    "edges": 60287,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:38:33+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 3,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:38:43+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:38:53+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:39:03+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:39:13+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:39:23+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:39:33+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:39:43+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:39:53+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:40:03+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:40:13+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:40:23+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:40:33+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:40:43+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:40:53+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 4,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:41:03+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 5,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:41:13+00:00",
+    "coverage": 60290,
+    "edges": 60290,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:41:23+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 76,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:41:33+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 6,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:41:43+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:41:53+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:42:02+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:42:12+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 7,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:42:22+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:42:32+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:44:52+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:45:02+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 8,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:45:12+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 17,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:45:22+00:00",
+    "coverage": 60366,
+    "edges": 60366,
+    "newEdges": 0,
+    "executions": 19,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:45:32+00:00",
+    "coverage": 60369,
+    "edges": 60369,
+    "newEdges": 3,
+    "executions": 13,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:45:42+00:00",
+    "coverage": 60373,
+    "edges": 60373,
+    "newEdges": 4,
+    "executions": 15,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:45:52+00:00",
+    "coverage": 60401,
+    "edges": 60401,
+    "newEdges": 28,
+    "executions": 151,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:46:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 901,
+    "executions": 249,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:46:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:46:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:46:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:46:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:46:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:47:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:47:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:47:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:47:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:47:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:47:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:48:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:48:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:48:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:48:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:48:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:48:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:49:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:49:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:49:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:49:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:49:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:49:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:50:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:50:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:50:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:50:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:50:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:50:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:51:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:51:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:51:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:51:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:51:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:51:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:52:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:52:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:52:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:52:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:52:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:52:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:53:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:53:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:53:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:53:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:53:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:53:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:54:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:54:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:54:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:54:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:54:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:54:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:55:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:55:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:55:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:55:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:55:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:55:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:56:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:56:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:56:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:56:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:56:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:56:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:57:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:57:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:57:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:57:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:57:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:57:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:58:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:58:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:58:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:58:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:58:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:58:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:59:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:59:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:59:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:59:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:59:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T16:59:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:00:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:00:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:00:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:00:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:00:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:00:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:01:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:01:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:01:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:01:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:01:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:01:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:02:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:02:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:02:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:02:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:02:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:02:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:03:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:03:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:03:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:03:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:03:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:03:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:04:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:04:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:04:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:04:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:04:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:04:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:05:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:05:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:05:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:05:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:05:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:05:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:06:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:06:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:06:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:06:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:06:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:06:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:07:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:07:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:07:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:07:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:07:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:07:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:08:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:08:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:08:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:08:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:08:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:08:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:09:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:09:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:09:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:09:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:09:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:09:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:10:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:10:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:10:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:10:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:10:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:10:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:11:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:11:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:11:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:11:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:11:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:11:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:12:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:12:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:12:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:12:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:12:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:12:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:13:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:13:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:13:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:13:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:13:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:13:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:14:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:14:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:14:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:14:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:14:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:14:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:15:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:15:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:15:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:15:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:15:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:15:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:16:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:16:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:16:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:16:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:16:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:16:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:17:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:17:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:17:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:17:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:17:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:17:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:18:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:18:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:18:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:18:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:18:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:18:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:19:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:19:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:19:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:19:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:19:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:19:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:20:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:20:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:20:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:20:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:20:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:20:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:21:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:21:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:21:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:21:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:21:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:21:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:22:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:22:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:22:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:22:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:22:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:22:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:23:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:23:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:23:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:23:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:23:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:23:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:24:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:24:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:24:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:24:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:24:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:24:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:25:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:25:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:25:22+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:25:32+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:25:42+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:25:52+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:26:02+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  },
+  {
+    "timestamp": "2026-08-13T17:26:12+00:00",
+    "coverage": 61302,
+    "edges": 61302,
+    "newEdges": 0,
+    "executions": 0,
+    "policy": "Random"
+  }
+]
