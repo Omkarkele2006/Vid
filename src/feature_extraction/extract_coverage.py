@@ -26,7 +26,7 @@ LINE_RE = re.compile(
     r"corpus=(?P<corpus>\d+)\s+"
     r"coverage=(?P<coverage>\d+)\s+"
     r"exec total=(?P<exec_total>\d+)\s+"
-    r"\((?P<rate>\d+)/min\)\s+"
+    r"\((?P<rate>\d+)/(?:min|sec)\)\s+"
     r"pending=(?P<pending>\d+)\s+"
     r"reproducing=(?P<reproducing>\d+)"
 )
