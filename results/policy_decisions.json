@@ -1,0 +1,1630 @@
+{
+  "policy": "AdaptiveHeuristicV1",
+  "recordsProcessed": 68,
+  "summary": {
+    "highPriority": 0,
+    "mediumPriority": 54,
+    "lowPriority": 14,
+    "averageScore": 0.5463
+  },
+  "decisions": [
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 9602.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:20:09+00:00",
+      "coverageRecord": {
+        "coverage": 9602,
+        "edges": 9602,
+        "newEdges": 0,
+        "executions": 871
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 649.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 10251.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:20:20+00:00",
+      "coverageRecord": {
+        "coverage": 10251,
+        "edges": 10251,
+        "newEdges": 649,
+        "executions": 217
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 4383.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 14634.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:20:30+00:00",
+      "coverageRecord": {
+        "coverage": 14634,
+        "edges": 14634,
+        "newEdges": 4383,
+        "executions": 239
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 280.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 14914.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:20:40+00:00",
+      "coverageRecord": {
+        "coverage": 14914,
+        "edges": 14914,
+        "newEdges": 280,
+        "executions": 31
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 14914.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:20:50+00:00",
+      "coverageRecord": {
+        "coverage": 14914,
+        "edges": 14914,
+        "newEdges": 0,
+        "executions": 0
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 3758.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 18672.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:21:00+00:00",
+      "coverageRecord": {
+        "coverage": 18672,
+        "edges": 18672,
+        "newEdges": 3758,
+        "executions": 306
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 454.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 19126.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:21:10+00:00",
+      "coverageRecord": {
+        "coverage": 19126,
+        "edges": 19126,
+        "newEdges": 454,
+        "executions": 289
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 19126.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:21:20+00:00",
+      "coverageRecord": {
+        "coverage": 19126,
+        "edges": 19126,
+        "newEdges": 0,
+        "executions": 29
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 154.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 19280.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:21:30+00:00",
+      "coverageRecord": {
+        "coverage": 19280,
+        "edges": 19280,
+        "newEdges": 154,
+        "executions": 38
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 40.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 19320.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:21:40+00:00",
+      "coverageRecord": {
+        "coverage": 19320,
+        "edges": 19320,
+        "newEdges": 40,
+        "executions": 32
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 1029.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 20349.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:21:50+00:00",
+      "coverageRecord": {
+        "coverage": 20349,
+        "edges": 20349,
+        "newEdges": 1029,
+        "executions": 476
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 476.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 20825.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:22:00+00:00",
+      "coverageRecord": {
+        "coverage": 20825,
+        "edges": 20825,
+        "newEdges": 476,
+        "executions": 343
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 349.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21174.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:22:10+00:00",
+      "coverageRecord": {
+        "coverage": 21174,
+        "edges": 21174,
+        "newEdges": 349,
+        "executions": 460
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 46.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21220.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:22:20+00:00",
+      "coverageRecord": {
+        "coverage": 21220,
+        "edges": 21220,
+        "newEdges": 46,
+        "executions": 436
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 93.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21313.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:22:30+00:00",
+      "coverageRecord": {
+        "coverage": 21313,
+        "edges": 21313,
+        "newEdges": 93,
+        "executions": 258
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 23.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21336.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:22:40+00:00",
+      "coverageRecord": {
+        "coverage": 21336,
+        "edges": 21336,
+        "newEdges": 23,
+        "executions": 134
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 2.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21338.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:22:50+00:00",
+      "coverageRecord": {
+        "coverage": 21338,
+        "edges": 21338,
+        "newEdges": 2,
+        "executions": 148
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 289.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21627.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:23:00+00:00",
+      "coverageRecord": {
+        "coverage": 21627,
+        "edges": 21627,
+        "newEdges": 289,
+        "executions": 224
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 5.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21632.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:23:10+00:00",
+      "coverageRecord": {
+        "coverage": 21632,
+        "edges": 21632,
+        "newEdges": 5,
+        "executions": 383
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 20.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21652.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:23:20+00:00",
+      "coverageRecord": {
+        "coverage": 21652,
+        "edges": 21652,
+        "newEdges": 20,
+        "executions": 427
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 7.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21659.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:23:30+00:00",
+      "coverageRecord": {
+        "coverage": 21659,
+        "edges": 21659,
+        "newEdges": 7,
+        "executions": 504
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 283.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21942.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:23:40+00:00",
+      "coverageRecord": {
+        "coverage": 21942,
+        "edges": 21942,
+        "newEdges": 283,
+        "executions": 486
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 18.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21960.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:23:50+00:00",
+      "coverageRecord": {
+        "coverage": 21960,
+        "edges": 21960,
+        "newEdges": 18,
+        "executions": 148
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 21960.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:24:00+00:00",
+      "coverageRecord": {
+        "coverage": 21960,
+        "edges": 21960,
+        "newEdges": 0,
+        "executions": 102
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 434.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22394.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:24:10+00:00",
+      "coverageRecord": {
+        "coverage": 22394,
+        "edges": 22394,
+        "newEdges": 434,
+        "executions": 150
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 18.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22412.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:24:20+00:00",
+      "coverageRecord": {
+        "coverage": 22412,
+        "edges": 22412,
+        "newEdges": 18,
+        "executions": 285
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 46.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22458.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:24:30+00:00",
+      "coverageRecord": {
+        "coverage": 22458,
+        "edges": 22458,
+        "newEdges": 46,
+        "executions": 315
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 3.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22461.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:24:40+00:00",
+      "coverageRecord": {
+        "coverage": 22461,
+        "edges": 22461,
+        "newEdges": 3,
+        "executions": 435
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 151.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22612.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:24:50+00:00",
+      "coverageRecord": {
+        "coverage": 22612,
+        "edges": 22612,
+        "newEdges": 151,
+        "executions": 308
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22612.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:25:00+00:00",
+      "coverageRecord": {
+        "coverage": 22612,
+        "edges": 22612,
+        "newEdges": 0,
+        "executions": 15
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 155.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22767.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:25:10+00:00",
+      "coverageRecord": {
+        "coverage": 22767,
+        "edges": 22767,
+        "newEdges": 155,
+        "executions": 187
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 18.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22785.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:25:20+00:00",
+      "coverageRecord": {
+        "coverage": 22785,
+        "edges": 22785,
+        "newEdges": 18,
+        "executions": 197
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 30.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22815.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:25:30+00:00",
+      "coverageRecord": {
+        "coverage": 22815,
+        "edges": 22815,
+        "newEdges": 30,
+        "executions": 79
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 132.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 22947.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:25:40+00:00",
+      "coverageRecord": {
+        "coverage": 22947,
+        "edges": 22947,
+        "newEdges": 132,
+        "executions": 165
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 65.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 23012.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:26:10+00:00",
+      "coverageRecord": {
+        "coverage": 23012,
+        "edges": 23012,
+        "newEdges": 65,
+        "executions": 122
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 265.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 23277.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:26:20+00:00",
+      "coverageRecord": {
+        "coverage": 23277,
+        "edges": 23277,
+        "newEdges": 265,
+        "executions": 405
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 515.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 23792.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:26:30+00:00",
+      "coverageRecord": {
+        "coverage": 23792,
+        "edges": 23792,
+        "newEdges": 515,
+        "executions": 109
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 36.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 23828.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:26:40+00:00",
+      "coverageRecord": {
+        "coverage": 23828,
+        "edges": 23828,
+        "newEdges": 36,
+        "executions": 73
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 23828.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:26:50+00:00",
+      "coverageRecord": {
+        "coverage": 23828,
+        "edges": 23828,
+        "newEdges": 0,
+        "executions": 73
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 84.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 23912.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:27:00+00:00",
+      "coverageRecord": {
+        "coverage": 23912,
+        "edges": 23912,
+        "newEdges": 84,
+        "executions": 101
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 431.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 24343.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:27:10+00:00",
+      "coverageRecord": {
+        "coverage": 24343,
+        "edges": 24343,
+        "newEdges": 431,
+        "executions": 219
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 28.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 24371.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:27:21+00:00",
+      "coverageRecord": {
+        "coverage": 24371,
+        "edges": 24371,
+        "newEdges": 28,
+        "executions": 265
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 612.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 24983.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:27:31+00:00",
+      "coverageRecord": {
+        "coverage": 24983,
+        "edges": 24983,
+        "newEdges": 612,
+        "executions": 559
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 1547.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26530.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:27:41+00:00",
+      "coverageRecord": {
+        "coverage": 26530,
+        "edges": 26530,
+        "newEdges": 1547,
+        "executions": 454
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 130.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26660.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:27:52+00:00",
+      "coverageRecord": {
+        "coverage": 26660,
+        "edges": 26660,
+        "newEdges": 130,
+        "executions": 336
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 61.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26721.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:28:02+00:00",
+      "coverageRecord": {
+        "coverage": 26721,
+        "edges": 26721,
+        "newEdges": 61,
+        "executions": 268
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 65.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26786.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:28:12+00:00",
+      "coverageRecord": {
+        "coverage": 26786,
+        "edges": 26786,
+        "newEdges": 65,
+        "executions": 380
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 79.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26865.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:28:22+00:00",
+      "coverageRecord": {
+        "coverage": 26865,
+        "edges": 26865,
+        "newEdges": 79,
+        "executions": 166
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 26.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26891.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:28:32+00:00",
+      "coverageRecord": {
+        "coverage": 26891,
+        "edges": 26891,
+        "newEdges": 26,
+        "executions": 88
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 11.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26902.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:28:42+00:00",
+      "coverageRecord": {
+        "coverage": 26902,
+        "edges": 26902,
+        "newEdges": 11,
+        "executions": 109
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 25.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26927.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:28:53+00:00",
+      "coverageRecord": {
+        "coverage": 26927,
+        "edges": 26927,
+        "newEdges": 25,
+        "executions": 44
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26927.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:29:03+00:00",
+      "coverageRecord": {
+        "coverage": 26927,
+        "edges": 26927,
+        "newEdges": 0,
+        "executions": 9
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 26927.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:29:13+00:00",
+      "coverageRecord": {
+        "coverage": 26927,
+        "edges": 26927,
+        "newEdges": 0,
+        "executions": 11
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 119.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27046.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:29:23+00:00",
+      "coverageRecord": {
+        "coverage": 27046,
+        "edges": 27046,
+        "newEdges": 119,
+        "executions": 214
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 147.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27193.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:29:34+00:00",
+      "coverageRecord": {
+        "coverage": 27193,
+        "edges": 27193,
+        "newEdges": 147,
+        "executions": 322
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27193.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:29:44+00:00",
+      "coverageRecord": {
+        "coverage": 27193,
+        "edges": 27193,
+        "newEdges": 0,
+        "executions": 64
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 2.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27195.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:29:54+00:00",
+      "coverageRecord": {
+        "coverage": 27195,
+        "edges": 27195,
+        "newEdges": 2,
+        "executions": 25
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 5.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27200.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:30:05+00:00",
+      "coverageRecord": {
+        "coverage": 27200,
+        "edges": 27200,
+        "newEdges": 5,
+        "executions": 45
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 76.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27276.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:30:15+00:00",
+      "coverageRecord": {
+        "coverage": 27276,
+        "edges": 27276,
+        "newEdges": 76,
+        "executions": 319
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 15.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27291.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:30:25+00:00",
+      "coverageRecord": {
+        "coverage": 27291,
+        "edges": 27291,
+        "newEdges": 15,
+        "executions": 101
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27291.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:30:36+00:00",
+      "coverageRecord": {
+        "coverage": 27291,
+        "edges": 27291,
+        "newEdges": 0,
+        "executions": 35
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 1.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27292.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:30:46+00:00",
+      "coverageRecord": {
+        "coverage": 27292,
+        "edges": 27292,
+        "newEdges": 1,
+        "executions": 21
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27292.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:30:56+00:00",
+      "coverageRecord": {
+        "coverage": 27292,
+        "edges": 27292,
+        "newEdges": 0,
+        "executions": 24
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 75.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27367.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:31:06+00:00",
+      "coverageRecord": {
+        "coverage": 27367,
+        "edges": 27367,
+        "newEdges": 75,
+        "executions": 53
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27367.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:31:16+00:00",
+      "coverageRecord": {
+        "coverage": 27367,
+        "edges": 27367,
+        "newEdges": 0,
+        "executions": 16
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27367.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:31:26+00:00",
+      "coverageRecord": {
+        "coverage": 27367,
+        "edges": 27367,
+        "newEdges": 0,
+        "executions": 12
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.6492,
+      "priority": "medium",
+      "signals": {
+        "coverage": 1.0,
+        "newEdges": 2.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27369.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "new coverage edges detected",
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:31:36+00:00",
+      "coverageRecord": {
+        "coverage": 27369,
+        "edges": 27369,
+        "newEdges": 2,
+        "executions": 11
+      }
+    },
+    {
+      "policy": "AdaptiveHeuristicV1",
+      "score": 0.1492,
+      "priority": "low",
+      "signals": {
+        "coverage": 0.0,
+        "newEdges": 0.0,
+        "crash": 0.0,
+        "efficiency": 0.9949,
+        "rawCoverage": 27369.0,
+        "duration": 0.06
+      },
+      "reason": [
+        "execution efficiency is favorable"
+      ],
+      "timestamp": "2026-08-21T10:31:46+00:00",
+      "coverageRecord": {
+        "coverage": 27369,
+        "edges": 27369,
+        "newEdges": 0,
+        "executions": 12
+      }
+    }
+  ]
+}
