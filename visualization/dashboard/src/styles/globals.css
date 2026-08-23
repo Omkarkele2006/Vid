@@ -171,3 +171,29 @@
 .recharts-cartesian-grid-vertical line {
   stroke: rgba(36,51,82,0.6) !important;
 }
+
+/* ── Print / PDF export styles ─────────────────────────────── */
+@media print {
+  aside, header, .no-print { display: none !important; }
+  main { margin-left: 0 !important; padding: 0 !important; }
+  .glass-card {
+    background: white !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: none !important;
+    color: black !important;
+    page-break-inside: avoid;
+  }
+  .glass-card * {
+    color: black !important;
+  }
+  .glass-card button {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  @page {
+    margin: 1.5cm;
+  }
+}

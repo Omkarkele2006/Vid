@@ -89,3 +89,50 @@ export function clamp(v: number, min: number, max: number) {
 export function deltaSign(v: number): '+' | '' {
   return v > 0 ? '+' : '';
 }
+
+// ── Export utilities ──────────────────────────────────────────
+
+export function downloadCSV(data: Record<string, unknown>[], filename: string) {
+  if (!data.length) return;
+  const headers = Object.keys(data[0]).join(',');
+  const rows = data.map(row =>
+    Object.values(row).map(v =>
+      typeof v === 'string' && v.includes(',') ? `"${v}"` : v
+    ).join(',')
+  );
+  const csv = [headers, ...rows].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+export function downloadJSON(data: unknown, filename: string) {
+  const blob = new Blob(
+    [JSON.stringify(data, null, 2)],
+    { type: 'application/json' }
+  );
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+export function downloadMarkdown(content: string, filename: string) {
+  const blob = new Blob([content], { type: 'text/markdown;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+export function printToPDF() {
+  window.print();
+}

@@ -6,8 +6,8 @@ import {
   LineChart, Line, AreaChart, Area, BarChart, Bar, ComposedChart,
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, Legend,
 } from 'recharts';
-import { executions, systemHealth, benchmarks, coverageTimeline } from '@/mock-data';
-import { KpiCard } from '@/components/cards/KpiCard';
+import { executions, systemHealth, benchmarks, coverageTimeline, crashes, kpiSummary } from '@/mock-data';
+import { downloadCSV, downloadJSON, downloadMarkdown, printToPDF } from '@/utils';import { KpiCard } from '@/components/cards/KpiCard';
 import { Badge } from '@/components/ui/Badge';
 import { Clock, Activity, FileText, Settings, Info, Cpu, HardDrive, Wifi, Server } from 'lucide-react';
 import { resultColor, timeAgo, formatDuration, cn } from '@/utils';
@@ -161,15 +161,68 @@ export function BenchmarkComparison() {
 
 // ── Reports ────────────────────────────────────────────────────
 export function Reports() {
-  const reportTypes = [
-    { label: 'PDF Report',          ext: 'PDF',      desc: 'Full experiment summary with charts and analysis', color: 'text-red-400' },
-    { label: 'Markdown Export',     ext: 'MD',       desc: 'GitHub-ready technical documentation',             color: 'text-blue-400' },
-    { label: 'CSV Export',          ext: 'CSV',      desc: 'Raw execution and crash data for analysis',        color: 'text-green-400' },
-    { label: 'JSON Export',         ext: 'JSON',     desc: 'Structured data with full metadata',               color: 'text-yellow-400' },
-    { label: 'Coverage Summary',    ext: 'REPORT',   desc: 'Coverage metrics and edge discovery statistics',   color: 'text-purple-400' },
-    { label: 'Crash Summary',       ext: 'REPORT',   desc: 'Vulnerability analysis and triage status',         color: 'text-red-400' },
-  ];
+  const markdownContent = `# VID Experiment Report
+Generated: ${new Date().toISOString()}
 
+## Project
+VID — AI-Guided Adaptive Kernel Runtime Intelligence Framework
+CDAC National Level SSM Hackathon 2026 — Team Open Thinkers
+
+## KPI Summary
+- Total Coverage: ${kpiSummary.totalCoverage}%
+- Unique Crashes: ${kpiSummary.uniqueCrashes}
+- Total Executions: ${kpiSummary.totalExecutions.toLocaleString()}
+- Average Runtime: ${kpiSummary.avgRuntime}s
+
+## Crashes Found
+${crashes.length} real crashes found on stock test kernel baseline run:
+${crashes.map((c: any) => `- **${c.type}** in \`${c.subsystem}\` (${c.severity}) — syscall: \`${c.syscall}\``).join('\n')}
+
+## Data Status
+- Coverage, crash, and execution data: REAL (from Syzkaller baseline run)
+- Per-syscall telemetry (CPU/memory/edges): pending — Issue #23
+- Benchmark comparison: pending second policy — Issue #24
+- Kernel: stock test kernel (real Linux 7.1.8 run pending — Phase B)
+`;
+
+  const reportTypes = [
+    {
+      label: 'PDF Report', ext: 'PDF',
+      desc: 'Full experiment summary — opens print dialog, choose Save as PDF',
+      color: 'text-red-400',
+      onClick: () => printToPDF(),
+    },
+    {
+      label: 'Markdown Export', ext: 'MD',
+      desc: 'GitHub-ready technical documentation',
+      color: 'text-blue-400',
+      onClick: () => downloadMarkdown(markdownContent, 'vid-experiment-report.md'),
+    },
+    {
+      label: 'Crashes CSV', ext: 'CSV',
+      desc: 'All real crash records as spreadsheet',
+      color: 'text-green-400',
+      onClick: () => downloadCSV(crashes as any, 'vid-crashes.csv'),
+    },
+    {
+      label: 'Full Data JSON', ext: 'JSON',
+      desc: 'Complete structured experiment data',
+      color: 'text-yellow-400',
+      onClick: () => downloadJSON({ crashes, executions, benchmarks, kpiSummary }, 'vid-full-data.json'),
+    },
+    {
+      label: 'Coverage CSV', ext: 'CSV',
+      desc: 'Real coverage timeline as spreadsheet (756 points)',
+      color: 'text-purple-400',
+      onClick: () => downloadCSV(coverageTimeline as any, 'vid-coverage.csv'),
+    },
+    {
+      label: 'Executions CSV', ext: 'CSV',
+      desc: 'Real execution records as spreadsheet (~5,793 rows)',
+      color: 'text-cyan-400',
+      onClick: () => downloadCSV(executions as any, 'vid-executions.csv'),
+    },
+  ];
   return (
     <div className="space-y-6 max-w-[1600px] mx-auto">
       <div>
@@ -185,9 +238,12 @@ export function Reports() {
             </div>
             <p className="text-sm font-semibold text-white mb-1.5">{r.label}</p>
             <p className="text-xs text-vid-subtext mb-4">{r.desc}</p>
-            <button className="w-full py-2 rounded-xl bg-vid-blue/15 border border-vid-blue/30 text-vid-blue text-xs font-semibold hover:bg-vid-blue/25 transition-all">
-              Generate Report
-            </button>
+<button
+  onClick={r.onClick}
+  className="no-print w-full py-2 rounded-xl bg-vid-blue/15 border border-vid-blue/30 text-vid-blue text-xs font-semibold hover:bg-vid-blue/25 transition-all"
+>
+  Generate & Download
+</button>
           </motion.div>
         ))}
       </div>
