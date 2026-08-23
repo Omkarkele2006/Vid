@@ -218,7 +218,7 @@ export const recentActivity = Array.from({ length: 50 }, (_, i) => ({
   type:      pick(activityTypes),
   message:   (() => {
     const msgs: Record<string, string> = {
-      crash_detected:       `Real crash detected: ${pick(crashes).type} in ${pick(crashes).subsystem}`,
+      crash_detected:       crashes.length ? `Real crash detected: ${pick(crashes).type} in ${pick(crashes).subsystem}` : `No crashes yet in current 7.1.8 run`,
       policy_switch:        `Policy switched — awaiting Om's 2nd policy for comparison`,
       coverage_milestone:   `Coverage reached ${latestCoverage.coverage.toFixed(0)}% of run maximum`,
       worker_started:       `Worker started — stock test kernel run`,
