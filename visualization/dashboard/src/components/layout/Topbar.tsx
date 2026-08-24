@@ -12,7 +12,12 @@ interface TopbarProps {
   breadcrumbs?: { label: string; active?: boolean }[];
 }
 
-const notifications = recentActivity.slice(0, 6);
+const notifications = recentActivity.slice(0, 6) as Array<{
+  id: string;
+  severity: string;
+  message: string;
+  timestamp: string;
+}>;
 
 export function Topbar({ sidebarWidth, breadcrumbs = [] }: TopbarProps) {
   const [searchFocused, setSearchFocused] = useState(false);

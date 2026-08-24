@@ -22,6 +22,14 @@ export default function CrashAnalytics() {
   const [page, setPage] = useState(0);
   const PER_PAGE = 10;
 
+  const statusClasses: Record<string, string> = {
+    open: 'text-red-400',
+    triaged: 'text-amber-400',
+    fixed: 'text-emerald-400',
+    duplicate: 'text-slate-400',
+    wontfix: 'text-slate-500',
+  };
+
   const filtered = crashes.filter(c =>
     (filterSev === 'all' || c.severity === filterSev) &&
     (search === '' ||
@@ -189,10 +197,7 @@ export default function CrashAnalytics() {
                     </span>
                   </td>
                   <td>
-                    <span className={cn('text-xs capitalize', {
-                      open:'text-red-400', triaged:'text-amber-400', fixed:'text-emerald-400',
-                      duplicate:'text-slate-400', wontfix:'text-slate-500',
-                    }[c.status])}>{c.status}</span>
+                    <span className={cn('text-xs capitalize', statusClasses[c.status] ?? 'text-slate-400')}>{c.status}</span>
                   </td>
                   <td><span className="text-xs text-vid-dim font-mono">{timeAgo(c.timestamp)}</span></td>
                 </motion.tr>
