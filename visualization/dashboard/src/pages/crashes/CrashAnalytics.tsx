@@ -46,7 +46,7 @@ export default function CrashAnalytics() {
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         <KpiCard title="Total Crashes"   value={crashes.length}                            icon={AlertTriangle} accent="red"    delta={12} deltaLabel="24h" index={0} />
-        <KpiCard title="Critical"        value={bySeverity[0].value}                       icon={Bug}          accent="red"    index={1} />
+       <KpiCard title="Total Crashes"   value={crashes.length} icon={AlertTriangle} accent="red" delta={0} deltaLabel="" index={0} />
         <KpiCard title="Reproduced"      value={crashes.filter(c => c.reproduced).length}  icon={Shield}       accent="green"  index={2} />
         <KpiCard title="Avg Time-to-First" value={Math.round(crashes.reduce((a,c)=>a+c.timeToFirst,0)/crashes.length)} unit="s" format="number" icon={Clock} accent="amber" index={3} />
       </div>

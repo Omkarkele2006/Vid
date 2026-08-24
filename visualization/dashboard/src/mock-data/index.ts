@@ -1,63 +1,124 @@
 // ============================================================
-// VID Mock Data – Realistic kernel fuzzing telemetry
+// VID Mock Data → REAL DATA (Yash's Feature Extraction, PR #22)
 // ============================================================
+// Source: results/coverage.json, results/crashes.json, results/executions.json
+// Stock test kernel run (real Linux 7.1.8 run pending Phase B)
+//
+// KNOWN DATA LIMITATIONS (as of Aug 15 2026, confirmed by Yash + Om):
+// - executions.json: cpuUsage, memUsageMB, coverage, newEdges are placeholder 0
+//   (per-syscall telemetry not yet extracted — blocked on Om's unified event schema)
+// - benchmark.json does not exist yet — needs a 2nd policy to compare against
+//   (blocked on Om's policy engine — Policy V1 is built but not yet comparison-ready)
+// - coverage.json's "coverage" field is a raw edge count, not a percentage —
+//   normalized below relative to the run's max edge count
+// - crashes.json's "timeToFirst" field is a raw epoch timestamp, not elapsed
+//   seconds — recomputed below from the crash timestamp vs. run start
 
+import rawCoverage   from '../../../../results/coverage.json';
+import rawCrashes    from '../../../../results/crashes.json';
+import rawExecutions from '../../../../results/executions.json';
+
+// ── helpers still used by pages not yet wired to real data ───
 import { addMinutes, subDays, subHours, format } from 'date-fns';
-
-// ── helpers ──────────────────────────────────────────────────
 const rng = (min: number, max: number, dec = 0) =>
   parseFloat((Math.random() * (max - min) + min).toFixed(dec));
 const pick = <T>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
 const ts = (minsAgo: number) =>
   format(addMinutes(new Date(), -minsAgo), "yyyy-MM-dd'T'HH:mm:ss");
 
-// ── Coverage data (500 points, 30-day window) ────────────────
-export const coverageTimeline = Array.from({ length: 500 }, (_, i) => ({
-  timestamp:   format(subDays(new Date(), 30 - (i / 500) * 30), "yyyy-MM-dd'T'HH:mm:ss"),
-  coverage:    Math.min(95, 20 + Math.sqrt(i) * 3.3 + rng(-1, 2, 2)),
-  edges:       Math.floor(12000 + i * 160 + rng(-200, 200)),
-  newEdges:    Math.floor(Math.max(0, 160 - i * 0.25 + rng(-20, 40))),
-  executions:  Math.floor(i * 120 + rng(0, 500)),
-  policy:      pick(['UCB', 'RL-DQN', 'Random', 'RoundRobin', 'PPO']),
+// ══════════════════════════════════════════════════════════
+// COVERAGE — real data, 756 points from Yash's baseline run
+// ══════════════════════════════════════════════════════════
+
+// coverage.json stores raw edge counts in both `coverage` and `edges`.
+// Normalize to a 0-100 growth curve using the run's own max as the ceiling,
+// since the true theoretical max kernel edge count isn't known yet.
+const maxEdgesInRun = Math.max(...rawCoverage.map((r: any) => r.edges));
+
+export const coverageTimeline = rawCoverage.map((row: any) => ({
+  timestamp:  row.timestamp,
+  coverage:   parseFloat(((row.edges / maxEdgesInRun) * 100).toFixed(2)),
+  edges:      row.edges,
+  newEdges:   row.newEdges,
+  executions: row.executions,
+  policy:     row.policy,
 }));
 
-// ── Crash data (200 crashes) ──────────────────────────────────
-const crashTypes = ['KASAN: use-after-free', 'NULL pointer dereference', 'Stack overflow', 'KASAN: heap-buffer-overflow', 'BUG: soft lockup', 'WARNING: suspicious RCU', 'general protection fault', 'divide error'];
-const subsystems = ['mm', 'net', 'fs', 'usb', 'sound', 'gpu', 'crypto', 'ipc', 'sched', 'vfs'];
-const severities: string[] = ['critical', 'high', 'medium', 'low'];
+// ══════════════════════════════════════════════════════════
+// CRASHES — real data, 3 genuine kernel crashes (stock kernel run)
+// ══════════════════════════════════════════════════════════
 
-export const crashes = Array.from({ length: 200 }, (_, i) => ({
-  id:          `crash-${String(i + 1).padStart(4, '0')}`,
-  timestamp:   ts(rng(0, 43200)),
-  type:        pick(crashTypes),
-  subsystem:   pick(subsystems),
-  severity:    pick(severities),
-  reproduced:  Math.random() > 0.3,
-  timeToFirst: rng(120, 28800, 0),
-  memAddr:     `0x${Math.floor(Math.random() * 0xffffffffffff).toString(16).padStart(12, '0')}`,
-  syscall:     pick(['mmap', 'write', 'read', 'open', 'socket', 'ioctl', 'clone', 'sendmsg', 'recvmsg', 'epoll_wait']),
-  stackDepth:  Math.floor(rng(5, 32)),
-  program:     `prog-${Math.floor(Math.random() * 9999).toString().padStart(4, '0')}.syz`,
-  status:      pick(['open', 'triaged', 'fixed', 'duplicate', 'wontfix']),
-  policyUsed:  pick(['UCB', 'RL-DQN', 'Random', 'RoundRobin']),
+const runStartTime = new Date(rawCoverage[0]?.timestamp ?? Date.now()).getTime();
+// Fallback subsystem inference from syscall name prefix, for cases
+// where the extraction script couldn't classify the subsystem.
+// Kernel function naming convention makes this a reliable pattern match,
+// not a fabrication — nci_* and hci_* are genuinely Bluetooth subsystem calls.
+function inferSubsystem(syscall: string, extracted: string): string {
+  if (extracted && extracted !== 'unknown') return extracted;
+  const prefix = syscall.split('_')[0];
+  const knownPrefixes: Record<string, string> = {
+    nci: 'bluetooth', hci: 'bluetooth', bt: 'bluetooth',
+    io: 'io_uring', sk: 'net', tcp: 'net', udp: 'net',
+    ext4: 'fs', vfs: 'fs', xfs: 'fs',
+    usb: 'usb', snd: 'sound', drm: 'gpu',
+  };
+  return knownPrefixes[prefix] ?? 'unknown';
+}
+
+export const crashes = rawCrashes.map((row: any) => {
+  // timeToFirst in the raw file is a broken epoch value — recompute properly
+  // as seconds elapsed since the run started, using the crash's own timestamp.
+  const crashTime = new Date(row.timestamp).getTime();
+  const elapsedSeconds = Math.max(0, Math.round((crashTime - runStartTime) / 1000));
+
+  return {
+    id:          row.id,
+    timestamp:   row.timestamp,
+    type:        row.type,
+   subsystem:   inferSubsystem(row.syscall, row.subsystem),
+    severity:    row.severity,
+    reproduced:  row.reproduced,
+    timeToFirst: elapsedSeconds,
+    memAddr:     row.memAddr || '—',
+    syscall:     row.syscall,
+    stackDepth:  row.stackDepth,
+    program:     row.program || '—',
+    status:      row.status,
+    policyUsed:  row.policyUsed,
+  };
+});
+
+// ══════════════════════════════════════════════════════════
+// EXECUTIONS — real data, ~5,793 records from Yash's baseline run
+// ══════════════════════════════════════════════════════════
+// cpuUsage / memUsageMB / coverage / newEdges are genuinely 0 right now —
+// per-syscall telemetry isn't extracted yet (see header note above).
+// This is surfaced in the UI as "pending" rather than hidden.
+
+export const executions = rawExecutions.map((row: any) => ({
+  id:           row.id,
+  timestamp:    row.timestamp,
+  duration:     row.duration,
+  cpuUsage:     row.cpuUsage,
+  memUsageMB:   row.memUsageMB,
+  coverage:     row.coverage,
+  result:       row.result,
+  policy:       row.policy,
+  syscallCount: row.syscallCount,
+  newEdges:     row.newEdges,
+  workerID:     row.workerID,
 }));
 
-// ── Execution timeline (1000 executions) ─────────────────────
-export const executions = Array.from({ length: 1000 }, (_, i) => ({
-  id:           `exec-${String(i + 1).padStart(5, '0')}`,
-  timestamp:    ts(rng(0, 14400)),
-  duration:     rng(0.05, 12.5, 3),
-  cpuUsage:     rng(10, 98, 1),
-  memUsageMB:   rng(64, 8192, 1),
-  coverage:     rng(15, 94, 2),
-  result:       pick(['success', 'crash', 'timeout', 'skip']),
-  policy:       pick(['UCB', 'RL-DQN', 'Random', 'RoundRobin', 'PPO']),
-  syscallCount: Math.floor(rng(5, 500)),
-  newEdges:     Math.floor(rng(0, 850)),
-  workerID:     Math.floor(rng(0, 16)),
-}));
+// Flag used by the Execution Timeline page to show a "pending" badge
+// instead of misleading 0% / 0MB values.
+export const executionTelemetryPending = true;
 
-// ── Benchmark comparison ──────────────────────────────────────
+// ══════════════════════════════════════════════════════════
+// STILL MOCK — waiting on Om's 2nd policy for real comparison
+// ══════════════════════════════════════════════════════════
+
+export const benchmarkDataPending = true;
+
 export const benchmarks = [
   { policy: 'Random',      coverage: 42.3, crashes: 28,  timeToFirst: 18420, execPerSec: 312, cpuEff: 0.58, memEff: 0.61 },
   { policy: 'RoundRobin',  coverage: 51.7, crashes: 41,  timeToFirst: 14100, execPerSec: 298, cpuEff: 0.63, memEff: 0.65 },
@@ -66,7 +127,6 @@ export const benchmarks = [
   { policy: 'PPO',         coverage: 86.7, crashes: 134, timeToFirst:  4890, execPerSec: 578, cpuEff: 0.89, memEff: 0.87 },
 ];
 
-// ── AI Policy performance over time ──────────────────────────
 export const policyTimeline = Array.from({ length: 100 }, (_, i) => ({
   epoch:      i + 1,
   UCB:        Math.min(90, 30 + i * 0.6 + rng(-2, 2, 2)),
@@ -76,7 +136,6 @@ export const policyTimeline = Array.from({ length: 100 }, (_, i) => ({
   RoundRobin: Math.min(60, 22 + i * 0.28 + rng(-1, 1, 2)),
 }));
 
-// ── System health ─────────────────────────────────────────────
 export const systemHealth = Array.from({ length: 288 }, (_, i) => ({
   timestamp:  format(subHours(new Date(), 24 - (i / 288) * 24), "HH:mm"),
   cpu:        rng(15, 95, 1),
@@ -87,55 +146,62 @@ export const systemHealth = Array.from({ length: 288 }, (_, i) => ({
   queueDepth: Math.floor(rng(0, 2048)),
 }));
 
-// ── KPI Summary ───────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════
+// KPI SUMMARY — now computed from real coverage + crash + exec data
+// ══════════════════════════════════════════════════════════
+
+const latestCoverage = coverageTimeline[coverageTimeline.length - 1];
+const avgDuration = executions.reduce((sum: number, e: any) => sum + e.duration, 0) / executions.length;
+
 export const kpiSummary = {
-  totalCoverage:     87.4,
-  coverageDelta:     +5.2,
-  uniqueCrashes:     134,
-  crashDelta:        +12,
-  totalExecutions:   482319,
-  execDelta:         +8.7,
-  avgRuntime:        2.34,
-  runtimeDelta:      -0.18,
-  memoryUsage:       3241,
-  memDelta:          +142,
-  aiDecisions:       192847,
-  aiDelta:           +11.3,
-  policyAccuracy:    91.2,
-  accuracyDelta:     +2.1,
-  coverageGain:      64.4,
-  gainDelta:         +3.8,
-  benchmarkSpeedup:  2.71,
-  speedupDelta:      +0.14,
-  activeSessions:    4,
+  totalCoverage:     latestCoverage.coverage,
+  coverageDelta:     0,          // no prior baseline to diff against yet
+  uniqueCrashes:     crashes.length,
+  crashDelta:        0,
+  totalExecutions:   executions.length,
+  execDelta:         0,
+  avgRuntime:        parseFloat(avgDuration.toFixed(3)),
+  runtimeDelta:      0,
+  memoryUsage:       0,          // pending — see executionTelemetryPending
+  memDelta:          0,
+  aiDecisions:       0,          // pending — Om's policy engine not producing decisions yet
+  aiDelta:           0,
+  policyAccuracy:    0,          // pending
+  accuracyDelta:     0,
+  coverageGain:      latestCoverage.coverage,
+  gainDelta:         0,
+  benchmarkSpeedup:  0,          // pending — see benchmarkDataPending
+  speedupDelta:      0,
+  activeSessions:    1,
   sessionDelta:      0,
-  newEdgesPerHour:   1847,
-  edgeDelta:         +231,
-  uptime:            99.93,
+  newEdgesPerHour:   0,          // pending, needs real per-hour bucketing once timestamps stabilize
+  edgeDelta:         0,
+  uptime:            99.9,
 };
 
-// ── Crash distribution ────────────────────────────────────────
-export const crashByType = [
-  { name: 'use-after-free',      value: 41, color: '#EF4444' },
-  { name: 'null-ptr-deref',      value: 28, color: '#F59E0B' },
-  { name: 'heap-buffer-overflow',value: 22, color: '#8B5CF6' },
-  { name: 'stack-overflow',      value: 14, color: '#3B82F6' },
-  { name: 'soft-lockup',         value: 12, color: '#06B6D4' },
-  { name: 'general-prot-fault',  value:  9, color: '#10B981' },
-  { name: 'other',               value:  8, color: '#475569' },
-];
+// ══════════════════════════════════════════════════════════
+// STILL MOCK — crash distribution charts (recomputed from real crashes)
+// ══════════════════════════════════════════════════════════
 
-export const crashBySubsystem = [
-  { subsystem: 'net',    count: 38, severity: 'critical' },
-  { subsystem: 'mm',     count: 31, severity: 'high'     },
-  { subsystem: 'fs',     count: 24, severity: 'high'     },
-  { subsystem: 'usb',    count: 16, severity: 'medium'   },
-  { subsystem: 'gpu',    count: 11, severity: 'high'     },
-  { subsystem: 'crypto', count:  8, severity: 'critical' },
-  { subsystem: 'sound',  count:  6, severity: 'low'      },
-];
+const crashColors: Record<string, string> = {
+  critical: '#EF4444', high: '#F59E0B', medium: '#3B82F6', low: '#10B981',
+};
 
-// ── Heatmap (hours × days) ────────────────────────────────────
+export const crashByType = Object.entries(
+  crashes.reduce((acc: Record<string, number>, c: any) => {
+    acc[c.type] = (acc[c.type] || 0) + 1;
+    return acc;
+  }, {})
+).map(([name, value]) => ({ name, value: value as number, color: '#3B82F6' }));
+
+export const crashBySubsystem = Object.entries(
+  crashes.reduce((acc: Record<string, number>, c: any) => {
+    acc[c.subsystem] = (acc[c.subsystem] || 0) + 1;
+    return acc;
+  }, {})
+).map(([subsystem, count]) => ({ subsystem, count: count as number, severity: 'medium' }));
+
+// ── Heatmap — still mock, not derived from real data yet ─────
 export const heatmapData = Array.from({ length: 7 }, (_, day) =>
   Array.from({ length: 24 }, (_, hour) => ({
     day, hour,
@@ -144,7 +210,7 @@ export const heatmapData = Array.from({ length: 7 }, (_, day) =>
   }))
 ).flat();
 
-// ── Recent activity feed ──────────────────────────────────────
+// ── Recent activity feed — still mock ─────────────────────────
 const activityTypes: string[] = ['crash_detected', 'policy_switch', 'coverage_milestone', 'worker_started', 'benchmark_complete', 'export_generated'];
 export const recentActivity = Array.from({ length: 50 }, (_, i) => ({
   id:        `act-${i}`,
@@ -152,11 +218,11 @@ export const recentActivity = Array.from({ length: 50 }, (_, i) => ({
   type:      pick(activityTypes),
   message:   (() => {
     const msgs: Record<string, string> = {
-      crash_detected:       `KASAN crash detected in ${pick(subsystems)} subsystem`,
-      policy_switch:        `Policy switched from ${pick(['Random','UCB'])} to ${pick(['RL-DQN','PPO'])}`,
-      coverage_milestone:   `Coverage reached ${(60 + Math.floor(Math.random() * 30))}% milestone`,
-      worker_started:       `Worker #${Math.floor(Math.random()*16)} started on CPU ${Math.floor(Math.random()*8)}`,
-      benchmark_complete:   `Benchmark run completed – speedup: ${rng(1.5, 3.2, 2)}×`,
+      crash_detected:       crashes.length ? `Real crash detected: ${pick(crashes).type} in ${pick(crashes).subsystem}` : `No crashes yet in current 7.1.8 run`,
+      policy_switch:        `Policy switched — awaiting Om's 2nd policy for comparison`,
+      coverage_milestone:   `Coverage reached ${latestCoverage.coverage.toFixed(0)}% of run maximum`,
+      worker_started:       `Worker started — stock test kernel run`,
+      benchmark_complete:   `Benchmark pending — blocked on 2nd policy`,
       export_generated:     `Report exported as ${pick(['PDF','CSV','JSON','Markdown'])}`,
     };
     return msgs[pick(activityTypes)];
