@@ -1,0 +1,34 @@
+node_modules/
+dist/
+.env
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Build files
+build/
+out/
+*.o
+*.a
+
+# Logs
+*.log
+
+# Experiment outputs
+experiments/**/output/
+results/raw/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp

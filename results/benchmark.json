@@ -1,0 +1,11 @@
+[
+  {
+    "policy": "Random",
+    "coverage": 27369,
+    "crashes": 0,
+    "timeToFirst": 0,
+    "execPerSec": 42.85,
+    "cpuEff": 0,
+    "memEff": 0
+  }
+]
