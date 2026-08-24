@@ -1,0 +1,2962 @@
+[
+  {
+    "syscall": "syz_mount_image$ext4",
+    "executions": 404,
+    "totalNewEdges": 1457776,
+    "averageNewEdges": 3608.356,
+    "maxNewEdges": 5974,
+    "errorRate": 0.2252,
+    "score": 0.9662,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_read_part_table",
+    "executions": 68,
+    "totalNewEdges": 240903,
+    "averageNewEdges": 3542.691,
+    "maxNewEdges": 5769,
+    "errorRate": 0.0735,
+    "score": 0.9559,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_clone",
+    "executions": 205,
+    "totalNewEdges": 547909,
+    "averageNewEdges": 2672.727,
+    "maxNewEdges": 6107,
+    "errorRate": 0.1317,
+    "score": 0.941,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_mount_image$msdos",
+    "executions": 164,
+    "totalNewEdges": 331626,
+    "averageNewEdges": 2022.11,
+    "maxNewEdges": 4434,
+    "errorRate": 0.122,
+    "score": 0.9132,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_mount_image$iso9660",
+    "executions": 54,
+    "totalNewEdges": 125679,
+    "averageNewEdges": 2327.389,
+    "maxNewEdges": 4526,
+    "errorRate": 0.1481,
+    "score": 0.9025,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_mount_image$vfat",
+    "executions": 134,
+    "totalNewEdges": 237356,
+    "averageNewEdges": 1771.313,
+    "maxNewEdges": 4600,
+    "errorRate": 0.1343,
+    "score": 0.8958,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_io_uring_setup",
+    "executions": 174,
+    "totalNewEdges": 242816,
+    "averageNewEdges": 1395.494,
+    "maxNewEdges": 2509,
+    "errorRate": 0.1552,
+    "score": 0.8756,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_genetlink_get_family_id$ethtool",
+    "executions": 6,
+    "totalNewEdges": 7970,
+    "averageNewEdges": 1328.333,
+    "maxNewEdges": 1604,
+    "errorRate": 0.0,
+    "score": 0.8351,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_ublk_setup_io_uring",
+    "executions": 69,
+    "totalNewEdges": 65341,
+    "averageNewEdges": 946.971,
+    "maxNewEdges": 2707,
+    "errorRate": 0.1014,
+    "score": 0.8322,
+    "priority": "high"
+  },
+  {
+    "syscall": "unshare",
+    "executions": 72,
+    "totalNewEdges": 65358,
+    "averageNewEdges": 907.75,
+    "maxNewEdges": 4301,
+    "errorRate": 0.1667,
+    "score": 0.8193,
+    "priority": "high"
+  },
+  {
+    "syscall": "io_uring_setup",
+    "executions": 7,
+    "totalNewEdges": 5343,
+    "averageNewEdges": 763.286,
+    "maxNewEdges": 912,
+    "errorRate": 0.0,
+    "score": 0.7875,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_genetlink_get_family_id$netlbl_cipso",
+    "executions": 6,
+    "totalNewEdges": 4554,
+    "averageNewEdges": 759.0,
+    "maxNewEdges": 929,
+    "errorRate": 0.0,
+    "score": 0.7843,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_genetlink_get_family_id$nl80211",
+    "executions": 71,
+    "totalNewEdges": 34963,
+    "averageNewEdges": 492.437,
+    "maxNewEdges": 1466,
+    "errorRate": 0.0704,
+    "score": 0.778,
+    "priority": "high"
+  },
+  {
+    "syscall": "munmap",
+    "executions": 5,
+    "totalNewEdges": 3612,
+    "averageNewEdges": 722.4,
+    "maxNewEdges": 1191,
+    "errorRate": 0.0,
+    "score": 0.7766,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_init_net_socket$nl_generic",
+    "executions": 35,
+    "totalNewEdges": 32409,
+    "averageNewEdges": 925.971,
+    "maxNewEdges": 1854,
+    "errorRate": 0.4286,
+    "score": 0.7691,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat$zero",
+    "executions": 10,
+    "totalNewEdges": 5518,
+    "averageNewEdges": 551.8,
+    "maxNewEdges": 689,
+    "errorRate": 0.0,
+    "score": 0.7643,
+    "priority": "high"
+  },
+  {
+    "syscall": "shmctl$IPC_INFO",
+    "executions": 15,
+    "totalNewEdges": 7219,
+    "averageNewEdges": 481.267,
+    "maxNewEdges": 692,
+    "errorRate": 0.0,
+    "score": 0.7591,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat$vga_arbiter",
+    "executions": 10,
+    "totalNewEdges": 5142,
+    "averageNewEdges": 514.2,
+    "maxNewEdges": 759,
+    "errorRate": 0.0,
+    "score": 0.7579,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat$sndtimer",
+    "executions": 4,
+    "totalNewEdges": 2242,
+    "averageNewEdges": 560.5,
+    "maxNewEdges": 755,
+    "errorRate": 0.0,
+    "score": 0.7496,
+    "priority": "high"
+  },
+  {
+    "syscall": "clock_gettime",
+    "executions": 4,
+    "totalNewEdges": 2234,
+    "averageNewEdges": 558.5,
+    "maxNewEdges": 641,
+    "errorRate": 0.0,
+    "score": 0.7493,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat$hwrng",
+    "executions": 4,
+    "totalNewEdges": 2132,
+    "averageNewEdges": 533.0,
+    "maxNewEdges": 719,
+    "errorRate": 0.0,
+    "score": 0.7451,
+    "priority": "high"
+  },
+  {
+    "syscall": "mount$tmpfs",
+    "executions": 65,
+    "totalNewEdges": 30318,
+    "averageNewEdges": 466.431,
+    "maxNewEdges": 2727,
+    "errorRate": 0.2462,
+    "score": 0.7451,
+    "priority": "high"
+  },
+  {
+    "syscall": "mprotect",
+    "executions": 22,
+    "totalNewEdges": 11111,
+    "averageNewEdges": 505.045,
+    "maxNewEdges": 1025,
+    "errorRate": 0.1818,
+    "score": 0.7429,
+    "priority": "high"
+  },
+  {
+    "syscall": "shmget$private",
+    "executions": 26,
+    "totalNewEdges": 9263,
+    "averageNewEdges": 356.269,
+    "maxNewEdges": 687,
+    "errorRate": 0.0,
+    "score": 0.7415,
+    "priority": "high"
+  },
+  {
+    "syscall": "creat",
+    "executions": 5,
+    "totalNewEdges": 2430,
+    "averageNewEdges": 486.0,
+    "maxNewEdges": 600,
+    "errorRate": 0.0,
+    "score": 0.7406,
+    "priority": "high"
+  },
+  {
+    "syscall": "write$binfmt_elf64",
+    "executions": 23,
+    "totalNewEdges": 11766,
+    "averageNewEdges": 511.565,
+    "maxNewEdges": 736,
+    "errorRate": 0.2174,
+    "score": 0.7395,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat$smack_task_current",
+    "executions": 8,
+    "totalNewEdges": 3479,
+    "averageNewEdges": 434.875,
+    "maxNewEdges": 1169,
+    "errorRate": 0.0,
+    "score": 0.7388,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_open_procfs$pagemap",
+    "executions": 22,
+    "totalNewEdges": 14184,
+    "averageNewEdges": 644.727,
+    "maxNewEdges": 1160,
+    "errorRate": 0.3636,
+    "score": 0.7378,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_socket_connect_nvme_tcp",
+    "executions": 15,
+    "totalNewEdges": 29010,
+    "averageNewEdges": 1934.0,
+    "maxNewEdges": 3147,
+    "errorRate": 1.0,
+    "score": 0.7353,
+    "priority": "high"
+  },
+  {
+    "syscall": "prlimit64",
+    "executions": 12,
+    "totalNewEdges": 4634,
+    "averageNewEdges": 386.167,
+    "maxNewEdges": 673,
+    "errorRate": 0.0,
+    "score": 0.7352,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat$procfs",
+    "executions": 22,
+    "totalNewEdges": 7494,
+    "averageNewEdges": 340.636,
+    "maxNewEdges": 963,
+    "errorRate": 0.0,
+    "score": 0.7345,
+    "priority": "high"
+  },
+  {
+    "syscall": "sched_getattr",
+    "executions": 4,
+    "totalNewEdges": 1879,
+    "averageNewEdges": 469.75,
+    "maxNewEdges": 625,
+    "errorRate": 0.0,
+    "score": 0.7336,
+    "priority": "high"
+  },
+  {
+    "syscall": "getrlimit",
+    "executions": 4,
+    "totalNewEdges": 1878,
+    "averageNewEdges": 469.5,
+    "maxNewEdges": 625,
+    "errorRate": 0.0,
+    "score": 0.7335,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$NL80211_CMD_CRIT_PROTOCOL_START",
+    "executions": 5,
+    "totalNewEdges": 2245,
+    "averageNewEdges": 449.0,
+    "maxNewEdges": 548,
+    "errorRate": 0.0,
+    "score": 0.7334,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$NFT_MSG_GETRULE",
+    "executions": 16,
+    "totalNewEdges": 5634,
+    "averageNewEdges": 352.125,
+    "maxNewEdges": 662,
+    "errorRate": 0.0,
+    "score": 0.7319,
+    "priority": "high"
+  },
+  {
+    "syscall": "mkdirat",
+    "executions": 546,
+    "totalNewEdges": 97066,
+    "averageNewEdges": 177.777,
+    "maxNewEdges": 2796,
+    "errorRate": 0.0659,
+    "score": 0.7223,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_clone3",
+    "executions": 31,
+    "totalNewEdges": 24845,
+    "averageNewEdges": 801.452,
+    "maxNewEdges": 2176,
+    "errorRate": 0.6452,
+    "score": 0.7214,
+    "priority": "high"
+  },
+  {
+    "syscall": "ioctl$sock_inet_tcp_SIOCOUTQ",
+    "executions": 5,
+    "totalNewEdges": 1951,
+    "averageNewEdges": 390.2,
+    "maxNewEdges": 483,
+    "errorRate": 0.0,
+    "score": 0.7207,
+    "priority": "high"
+  },
+  {
+    "syscall": "mmap",
+    "executions": 41,
+    "totalNewEdges": 13441,
+    "averageNewEdges": 327.829,
+    "maxNewEdges": 985,
+    "errorRate": 0.1463,
+    "score": 0.72,
+    "priority": "high"
+  },
+  {
+    "syscall": "renameat2",
+    "executions": 80,
+    "totalNewEdges": 25198,
+    "averageNewEdges": 314.975,
+    "maxNewEdges": 831,
+    "errorRate": 0.225,
+    "score": 0.7164,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat$tcp_congestion",
+    "executions": 25,
+    "totalNewEdges": 6549,
+    "averageNewEdges": 261.96,
+    "maxNewEdges": 1046,
+    "errorRate": 0.0,
+    "score": 0.7129,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$ETHTOOL_MSG_PRIVFLAGS_SET",
+    "executions": 4,
+    "totalNewEdges": 1471,
+    "averageNewEdges": 367.75,
+    "maxNewEdges": 524,
+    "errorRate": 0.0,
+    "score": 0.7114,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat$rfkill",
+    "executions": 31,
+    "totalNewEdges": 7613,
+    "averageNewEdges": 245.581,
+    "maxNewEdges": 737,
+    "errorRate": 0.0,
+    "score": 0.7109,
+    "priority": "high"
+  },
+  {
+    "syscall": "mknodat",
+    "executions": 162,
+    "totalNewEdges": 30917,
+    "averageNewEdges": 190.846,
+    "maxNewEdges": 874,
+    "errorRate": 0.0494,
+    "score": 0.7098,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat$sysfs",
+    "executions": 8,
+    "totalNewEdges": 2496,
+    "averageNewEdges": 312.0,
+    "maxNewEdges": 954,
+    "errorRate": 0.0,
+    "score": 0.7087,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$NL80211_CMD_START_AP",
+    "executions": 4,
+    "totalNewEdges": 1418,
+    "averageNewEdges": 354.5,
+    "maxNewEdges": 468,
+    "errorRate": 0.0,
+    "score": 0.7081,
+    "priority": "high"
+  },
+  {
+    "syscall": "sched_getparam",
+    "executions": 4,
+    "totalNewEdges": 1415,
+    "averageNewEdges": 353.75,
+    "maxNewEdges": 499,
+    "errorRate": 0.0,
+    "score": 0.7079,
+    "priority": "high"
+  },
+  {
+    "syscall": "pipe2$9p",
+    "executions": 8,
+    "totalNewEdges": 2459,
+    "averageNewEdges": 307.375,
+    "maxNewEdges": 817,
+    "errorRate": 0.0,
+    "score": 0.7073,
+    "priority": "high"
+  },
+  {
+    "syscall": "socketpair$nbd",
+    "executions": 30,
+    "totalNewEdges": 8467,
+    "averageNewEdges": 282.233,
+    "maxNewEdges": 917,
+    "errorRate": 0.1333,
+    "score": 0.7029,
+    "priority": "high"
+  },
+  {
+    "syscall": "pipe",
+    "executions": 15,
+    "totalNewEdges": 6028,
+    "averageNewEdges": 401.867,
+    "maxNewEdges": 884,
+    "errorRate": 0.2667,
+    "score": 0.7027,
+    "priority": "high"
+  },
+  {
+    "syscall": "socket$nl_sock_diag",
+    "executions": 11,
+    "totalNewEdges": 2989,
+    "averageNewEdges": 271.727,
+    "maxNewEdges": 500,
+    "errorRate": 0.0,
+    "score": 0.7018,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$NL80211_CMD_TRIGGER_SCAN",
+    "executions": 77,
+    "totalNewEdges": 26613,
+    "averageNewEdges": 345.623,
+    "maxNewEdges": 1060,
+    "errorRate": 0.3766,
+    "score": 0.7014,
+    "priority": "high"
+  },
+  {
+    "syscall": "shmctl$SHM_STAT",
+    "executions": 9,
+    "totalNewEdges": 2490,
+    "averageNewEdges": 276.667,
+    "maxNewEdges": 492,
+    "errorRate": 0.0,
+    "score": 0.6999,
+    "priority": "high"
+  },
+  {
+    "syscall": "socket$nl_route",
+    "executions": 5,
+    "totalNewEdges": 1548,
+    "averageNewEdges": 309.6,
+    "maxNewEdges": 526,
+    "errorRate": 0.0,
+    "score": 0.6997,
+    "priority": "high"
+  },
+  {
+    "syscall": "socket$inet6_icmp",
+    "executions": 18,
+    "totalNewEdges": 4218,
+    "averageNewEdges": 234.333,
+    "maxNewEdges": 567,
+    "errorRate": 0.0,
+    "score": 0.697,
+    "priority": "high"
+  },
+  {
+    "syscall": "time",
+    "executions": 12,
+    "totalNewEdges": 3016,
+    "averageNewEdges": 251.333,
+    "maxNewEdges": 622,
+    "errorRate": 0.0,
+    "score": 0.6963,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmmsg$inet6",
+    "executions": 42,
+    "totalNewEdges": 17972,
+    "averageNewEdges": 427.905,
+    "maxNewEdges": 1396,
+    "errorRate": 0.4762,
+    "score": 0.6951,
+    "priority": "high"
+  },
+  {
+    "syscall": "openat",
+    "executions": 186,
+    "totalNewEdges": 34475,
+    "averageNewEdges": 185.349,
+    "maxNewEdges": 1047,
+    "errorRate": 0.1505,
+    "score": 0.6944,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_open_dev$tty1",
+    "executions": 14,
+    "totalNewEdges": 3340,
+    "averageNewEdges": 238.571,
+    "maxNewEdges": 953,
+    "errorRate": 0.0,
+    "score": 0.6942,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$NL80211_CMD_SET_INTERFACE",
+    "executions": 16,
+    "totalNewEdges": 3546,
+    "averageNewEdges": 221.625,
+    "maxNewEdges": 542,
+    "errorRate": 0.0,
+    "score": 0.6899,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$NFT_MSG_GETOBJ_RESET",
+    "executions": 4,
+    "totalNewEdges": 1137,
+    "averageNewEdges": 284.25,
+    "maxNewEdges": 379,
+    "errorRate": 0.0,
+    "score": 0.6881,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$TIPC_NL_MON_SET",
+    "executions": 4,
+    "totalNewEdges": 1135,
+    "averageNewEdges": 283.75,
+    "maxNewEdges": 354,
+    "errorRate": 0.0,
+    "score": 0.6879,
+    "priority": "high"
+  },
+  {
+    "syscall": "open$dir",
+    "executions": 8,
+    "totalNewEdges": 4517,
+    "averageNewEdges": 564.625,
+    "maxNewEdges": 1041,
+    "errorRate": 0.5,
+    "score": 0.6875,
+    "priority": "high"
+  },
+  {
+    "syscall": "socket$inet_icmp",
+    "executions": 6,
+    "totalNewEdges": 1550,
+    "averageNewEdges": 258.333,
+    "maxNewEdges": 517,
+    "errorRate": 0.0,
+    "score": 0.6865,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_open_dev$loop",
+    "executions": 12,
+    "totalNewEdges": 4527,
+    "averageNewEdges": 377.25,
+    "maxNewEdges": 798,
+    "errorRate": 0.3333,
+    "score": 0.6831,
+    "priority": "high"
+  },
+  {
+    "syscall": "socketpair$unix",
+    "executions": 18,
+    "totalNewEdges": 3613,
+    "averageNewEdges": 200.722,
+    "maxNewEdges": 916,
+    "errorRate": 0.0,
+    "score": 0.683,
+    "priority": "high"
+  },
+  {
+    "syscall": "memfd_secret",
+    "executions": 18,
+    "totalNewEdges": 3575,
+    "averageNewEdges": 198.611,
+    "maxNewEdges": 468,
+    "errorRate": 0.0,
+    "score": 0.6821,
+    "priority": "high"
+  },
+  {
+    "syscall": "execveat",
+    "executions": 15,
+    "totalNewEdges": 16025,
+    "averageNewEdges": 1068.333,
+    "maxNewEdges": 2428,
+    "errorRate": 1.0,
+    "score": 0.6814,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_open_dev$vcsn",
+    "executions": 21,
+    "totalNewEdges": 3946,
+    "averageNewEdges": 187.905,
+    "maxNewEdges": 792,
+    "errorRate": 0.0,
+    "score": 0.6798,
+    "priority": "high"
+  },
+  {
+    "syscall": "pipe2",
+    "executions": 15,
+    "totalNewEdges": 5230,
+    "averageNewEdges": 348.667,
+    "maxNewEdges": 841,
+    "errorRate": 0.3333,
+    "score": 0.6798,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$DCCPDIAG_GETSOCK",
+    "executions": 5,
+    "totalNewEdges": 1197,
+    "averageNewEdges": 239.4,
+    "maxNewEdges": 299,
+    "errorRate": 0.0,
+    "score": 0.6764,
+    "priority": "high"
+  },
+  {
+    "syscall": "syz_genetlink_get_family_id$netlbl_unlabel",
+    "executions": 4,
+    "totalNewEdges": 5193,
+    "averageNewEdges": 1298.25,
+    "maxNewEdges": 1560,
+    "errorRate": 1.0,
+    "score": 0.6759,
+    "priority": "high"
+  },
+  {
+    "syscall": "unlinkat",
+    "executions": 68,
+    "totalNewEdges": 18692,
+    "averageNewEdges": 274.882,
+    "maxNewEdges": 712,
+    "errorRate": 0.4118,
+    "score": 0.6732,
+    "priority": "high"
+  },
+  {
+    "syscall": "getresuid",
+    "executions": 13,
+    "totalNewEdges": 4669,
+    "averageNewEdges": 359.154,
+    "maxNewEdges": 705,
+    "errorRate": 0.3846,
+    "score": 0.6723,
+    "priority": "high"
+  },
+  {
+    "syscall": "getresgid",
+    "executions": 19,
+    "totalNewEdges": 6700,
+    "averageNewEdges": 352.632,
+    "maxNewEdges": 706,
+    "errorRate": 0.4211,
+    "score": 0.6719,
+    "priority": "high"
+  },
+  {
+    "syscall": "sendmsg$IPVS_CMD_SET_CONFIG",
+    "executions": 4,
+    "totalNewEdges": 931,
+    "averageNewEdges": 232.75,
+    "maxNewEdges": 311,
+    "errorRate": 0.0,
+    "score": 0.67,
+    "priority": "medium"
+  },
+  {
+    "syscall": "sendmsg$NL802154_CMD_SET_ACKREQ_DEFAULT",
+    "executions": 4,
+    "totalNewEdges": 930,
+    "averageNewEdges": 232.5,
+    "maxNewEdges": 311,
+    "errorRate": 0.0,
+    "score": 0.6699,
+    "priority": "medium"
+  },
+  {
+    "syscall": "syz_mount_image$tmpfs",
+    "executions": 17,
+    "totalNewEdges": 15589,
+    "averageNewEdges": 917.0,
+    "maxNewEdges": 1305,
+    "errorRate": 1.0,
+    "score": 0.6698,
+    "priority": "medium"
+  },
+  {
+    "syscall": "prctl$PR_SET_IO_FLUSHER",
+    "executions": 4,
+    "totalNewEdges": 916,
+    "averageNewEdges": 229.0,
+    "maxNewEdges": 303,
+    "errorRate": 0.0,
+    "score": 0.6685,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socket$igmp",
+    "executions": 8,
+    "totalNewEdges": 1600,
+    "averageNewEdges": 200.0,
+    "maxNewEdges": 529,
+    "errorRate": 0.0,
+    "score": 0.6684,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socket$igmp6",
+    "executions": 8,
+    "totalNewEdges": 1590,
+    "averageNewEdges": 198.75,
+    "maxNewEdges": 529,
+    "errorRate": 0.0,
+    "score": 0.6679,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat$autofs",
+    "executions": 12,
+    "totalNewEdges": 2126,
+    "averageNewEdges": 177.167,
+    "maxNewEdges": 722,
+    "errorRate": 0.0,
+    "score": 0.6646,
+    "priority": "medium"
+  },
+  {
+    "syscall": "write$cgroup_pid",
+    "executions": 19,
+    "totalNewEdges": 4332,
+    "averageNewEdges": 228.0,
+    "maxNewEdges": 468,
+    "errorRate": 0.2105,
+    "score": 0.6639,
+    "priority": "medium"
+  },
+  {
+    "syscall": "ioctl$KDGKBMETA",
+    "executions": 10,
+    "totalNewEdges": 1821,
+    "averageNewEdges": 182.1,
+    "maxNewEdges": 491,
+    "errorRate": 0.0,
+    "score": 0.6639,
+    "priority": "medium"
+  },
+  {
+    "syscall": "getpgid",
+    "executions": 4,
+    "totalNewEdges": 858,
+    "averageNewEdges": 214.5,
+    "maxNewEdges": 284,
+    "errorRate": 0.0,
+    "score": 0.6626,
+    "priority": "medium"
+  },
+  {
+    "syscall": "close_range",
+    "executions": 4,
+    "totalNewEdges": 853,
+    "averageNewEdges": 213.25,
+    "maxNewEdges": 281,
+    "errorRate": 0.0,
+    "score": 0.662,
+    "priority": "medium"
+  },
+  {
+    "syscall": "getegid",
+    "executions": 4,
+    "totalNewEdges": 851,
+    "averageNewEdges": 212.75,
+    "maxNewEdges": 300,
+    "errorRate": 0.0,
+    "score": 0.6618,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat$binfmt",
+    "executions": 43,
+    "totalNewEdges": 5736,
+    "averageNewEdges": 133.395,
+    "maxNewEdges": 765,
+    "errorRate": 0.0,
+    "score": 0.6614,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socket$inet_tcp",
+    "executions": 35,
+    "totalNewEdges": 4774,
+    "averageNewEdges": 136.4,
+    "maxNewEdges": 528,
+    "errorRate": 0.0,
+    "score": 0.6598,
+    "priority": "medium"
+  },
+  {
+    "syscall": "geteuid",
+    "executions": 4,
+    "totalNewEdges": 825,
+    "averageNewEdges": 206.25,
+    "maxNewEdges": 274,
+    "errorRate": 0.0,
+    "score": 0.659,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat$full",
+    "executions": 5,
+    "totalNewEdges": 979,
+    "averageNewEdges": 195.8,
+    "maxNewEdges": 326,
+    "errorRate": 0.0,
+    "score": 0.6582,
+    "priority": "medium"
+  },
+  {
+    "syscall": "utime",
+    "executions": 12,
+    "totalNewEdges": 3426,
+    "averageNewEdges": 285.5,
+    "maxNewEdges": 416,
+    "errorRate": 0.3333,
+    "score": 0.6578,
+    "priority": "medium"
+  },
+  {
+    "syscall": "stat",
+    "executions": 9,
+    "totalNewEdges": 3854,
+    "averageNewEdges": 428.222,
+    "maxNewEdges": 817,
+    "errorRate": 0.5556,
+    "score": 0.6561,
+    "priority": "medium"
+  },
+  {
+    "syscall": "setrlimit",
+    "executions": 14,
+    "totalNewEdges": 3472,
+    "averageNewEdges": 248.0,
+    "maxNewEdges": 380,
+    "errorRate": 0.2857,
+    "score": 0.6549,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socket$inet6",
+    "executions": 91,
+    "totalNewEdges": 9733,
+    "averageNewEdges": 106.956,
+    "maxNewEdges": 534,
+    "errorRate": 0.0,
+    "score": 0.6547,
+    "priority": "medium"
+  },
+  {
+    "syscall": "timer_create",
+    "executions": 34,
+    "totalNewEdges": 6431,
+    "averageNewEdges": 189.147,
+    "maxNewEdges": 766,
+    "errorRate": 0.2353,
+    "score": 0.6536,
+    "priority": "medium"
+  },
+  {
+    "syscall": "symlinkat",
+    "executions": 10,
+    "totalNewEdges": 3719,
+    "averageNewEdges": 371.9,
+    "maxNewEdges": 819,
+    "errorRate": 0.5,
+    "score": 0.6535,
+    "priority": "medium"
+  },
+  {
+    "syscall": "capget",
+    "executions": 24,
+    "totalNewEdges": 5662,
+    "averageNewEdges": 235.917,
+    "maxNewEdges": 809,
+    "errorRate": 0.3333,
+    "score": 0.6527,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socket$unix",
+    "executions": 13,
+    "totalNewEdges": 3309,
+    "averageNewEdges": 254.538,
+    "maxNewEdges": 530,
+    "errorRate": 0.3077,
+    "score": 0.6527,
+    "priority": "medium"
+  },
+  {
+    "syscall": "syz_genetlink_get_family_id$nfc",
+    "executions": 5,
+    "totalNewEdges": 4796,
+    "averageNewEdges": 959.2,
+    "maxNewEdges": 1355,
+    "errorRate": 1.0,
+    "score": 0.6523,
+    "priority": "medium"
+  },
+  {
+    "syscall": "acct",
+    "executions": 8,
+    "totalNewEdges": 3029,
+    "averageNewEdges": 378.625,
+    "maxNewEdges": 704,
+    "errorRate": 0.5,
+    "score": 0.6512,
+    "priority": "medium"
+  },
+  {
+    "syscall": "ppoll",
+    "executions": 16,
+    "totalNewEdges": 3475,
+    "averageNewEdges": 217.188,
+    "maxNewEdges": 462,
+    "errorRate": 0.25,
+    "score": 0.6506,
+    "priority": "medium"
+  },
+  {
+    "syscall": "getgid",
+    "executions": 11,
+    "totalNewEdges": 1664,
+    "averageNewEdges": 151.273,
+    "maxNewEdges": 274,
+    "errorRate": 0.0,
+    "score": 0.6488,
+    "priority": "medium"
+  },
+  {
+    "syscall": "listxattr",
+    "executions": 12,
+    "totalNewEdges": 2965,
+    "averageNewEdges": 247.083,
+    "maxNewEdges": 418,
+    "errorRate": 0.3333,
+    "score": 0.6447,
+    "priority": "medium"
+  },
+  {
+    "syscall": "epoll_create",
+    "executions": 8,
+    "totalNewEdges": 1211,
+    "averageNewEdges": 151.375,
+    "maxNewEdges": 398,
+    "errorRate": 0.0,
+    "score": 0.6432,
+    "priority": "medium"
+  },
+  {
+    "syscall": "execveat$binfmt",
+    "executions": 26,
+    "totalNewEdges": 14952,
+    "averageNewEdges": 575.077,
+    "maxNewEdges": 1962,
+    "errorRate": 1.0,
+    "score": 0.6349,
+    "priority": "medium"
+  },
+  {
+    "syscall": "add_key$keyring",
+    "executions": 21,
+    "totalNewEdges": 6536,
+    "averageNewEdges": 311.238,
+    "maxNewEdges": 649,
+    "errorRate": 0.619,
+    "score": 0.6326,
+    "priority": "medium"
+  },
+  {
+    "syscall": "umount2",
+    "executions": 32,
+    "totalNewEdges": 8761,
+    "averageNewEdges": 273.781,
+    "maxNewEdges": 1006,
+    "errorRate": 0.5938,
+    "score": 0.6322,
+    "priority": "medium"
+  },
+  {
+    "syscall": "syz_genetlink_get_family_id$ieee802154",
+    "executions": 8,
+    "totalNewEdges": 5593,
+    "averageNewEdges": 699.125,
+    "maxNewEdges": 1926,
+    "errorRate": 1.0,
+    "score": 0.6319,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat$binderfs",
+    "executions": 12,
+    "totalNewEdges": 7527,
+    "averageNewEdges": 627.25,
+    "maxNewEdges": 1009,
+    "errorRate": 1.0,
+    "score": 0.6292,
+    "priority": "medium"
+  },
+  {
+    "syscall": "syz_open_dev$vcsa",
+    "executions": 8,
+    "totalNewEdges": 5341,
+    "averageNewEdges": 667.625,
+    "maxNewEdges": 908,
+    "errorRate": 1.0,
+    "score": 0.6277,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat$ptp0",
+    "executions": 8,
+    "totalNewEdges": 5022,
+    "averageNewEdges": 627.75,
+    "maxNewEdges": 1347,
+    "errorRate": 1.0,
+    "score": 0.6221,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socket$netlink",
+    "executions": 8,
+    "totalNewEdges": 4921,
+    "averageNewEdges": 615.125,
+    "maxNewEdges": 771,
+    "errorRate": 1.0,
+    "score": 0.6203,
+    "priority": "medium"
+  },
+  {
+    "syscall": "capset",
+    "executions": 75,
+    "totalNewEdges": 7034,
+    "averageNewEdges": 93.787,
+    "maxNewEdges": 404,
+    "errorRate": 0.1333,
+    "score": 0.6194,
+    "priority": "medium"
+  },
+  {
+    "syscall": "setxattr$system_posix_acl",
+    "executions": 8,
+    "totalNewEdges": 2118,
+    "averageNewEdges": 264.75,
+    "maxNewEdges": 370,
+    "errorRate": 0.5,
+    "score": 0.6188,
+    "priority": "medium"
+  },
+  {
+    "syscall": "getuid",
+    "executions": 7,
+    "totalNewEdges": 824,
+    "averageNewEdges": 117.714,
+    "maxNewEdges": 274,
+    "errorRate": 0.0,
+    "score": 0.6182,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat$binfmt_format",
+    "executions": 4,
+    "totalNewEdges": 2743,
+    "averageNewEdges": 685.75,
+    "maxNewEdges": 880,
+    "errorRate": 1.0,
+    "score": 0.6179,
+    "priority": "medium"
+  },
+  {
+    "syscall": "mount$bind",
+    "executions": 57,
+    "totalNewEdges": 10498,
+    "averageNewEdges": 184.175,
+    "maxNewEdges": 705,
+    "errorRate": 0.5263,
+    "score": 0.6166,
+    "priority": "medium"
+  },
+  {
+    "syscall": "shmctl$SHM_INFO",
+    "executions": 16,
+    "totalNewEdges": 4409,
+    "averageNewEdges": 275.562,
+    "maxNewEdges": 639,
+    "errorRate": 0.625,
+    "score": 0.6159,
+    "priority": "medium"
+  },
+  {
+    "syscall": "signalfd",
+    "executions": 8,
+    "totalNewEdges": 2035,
+    "averageNewEdges": 254.375,
+    "maxNewEdges": 403,
+    "errorRate": 0.5,
+    "score": 0.6152,
+    "priority": "medium"
+  },
+  {
+    "syscall": "sendto$inet",
+    "executions": 8,
+    "totalNewEdges": 1973,
+    "averageNewEdges": 246.625,
+    "maxNewEdges": 690,
+    "errorRate": 0.5,
+    "score": 0.6124,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socketpair",
+    "executions": 9,
+    "totalNewEdges": 4931,
+    "averageNewEdges": 547.889,
+    "maxNewEdges": 968,
+    "errorRate": 1.0,
+    "score": 0.6118,
+    "priority": "medium"
+  },
+  {
+    "syscall": "newfstatat",
+    "executions": 17,
+    "totalNewEdges": 5456,
+    "averageNewEdges": 320.941,
+    "maxNewEdges": 801,
+    "errorRate": 0.7647,
+    "score": 0.6098,
+    "priority": "medium"
+  },
+  {
+    "syscall": "write$tcp_congestion",
+    "executions": 25,
+    "totalNewEdges": 2676,
+    "averageNewEdges": 107.04,
+    "maxNewEdges": 280,
+    "errorRate": 0.16,
+    "score": 0.608,
+    "priority": "medium"
+  },
+  {
+    "syscall": "truncate",
+    "executions": 18,
+    "totalNewEdges": 3265,
+    "averageNewEdges": 181.389,
+    "maxNewEdges": 430,
+    "errorRate": 0.4444,
+    "score": 0.6072,
+    "priority": "medium"
+  },
+  {
+    "syscall": "semget$private",
+    "executions": 20,
+    "totalNewEdges": 3559,
+    "averageNewEdges": 177.95,
+    "maxNewEdges": 416,
+    "errorRate": 0.5,
+    "score": 0.599,
+    "priority": "medium"
+  },
+  {
+    "syscall": "signalfd4",
+    "executions": 16,
+    "totalNewEdges": 2932,
+    "averageNewEdges": 183.25,
+    "maxNewEdges": 401,
+    "errorRate": 0.5,
+    "score": 0.5977,
+    "priority": "medium"
+  },
+  {
+    "syscall": "linkat",
+    "executions": 21,
+    "totalNewEdges": 4741,
+    "averageNewEdges": 225.762,
+    "maxNewEdges": 519,
+    "errorRate": 0.6667,
+    "score": 0.5964,
+    "priority": "medium"
+  },
+  {
+    "syscall": "read",
+    "executions": 19,
+    "totalNewEdges": 1911,
+    "averageNewEdges": 100.579,
+    "maxNewEdges": 280,
+    "errorRate": 0.2105,
+    "score": 0.59,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socket",
+    "executions": 4,
+    "totalNewEdges": 1994,
+    "averageNewEdges": 498.5,
+    "maxNewEdges": 739,
+    "errorRate": 1.0,
+    "score": 0.589,
+    "priority": "medium"
+  },
+  {
+    "syscall": "ftruncate",
+    "executions": 12,
+    "totalNewEdges": 1600,
+    "averageNewEdges": 133.333,
+    "maxNewEdges": 281,
+    "errorRate": 0.3333,
+    "score": 0.5889,
+    "priority": "medium"
+  },
+  {
+    "syscall": "shmctl$SHM_STAT_ANY",
+    "executions": 16,
+    "totalNewEdges": 3237,
+    "averageNewEdges": 202.312,
+    "maxNewEdges": 484,
+    "errorRate": 0.625,
+    "score": 0.5879,
+    "priority": "medium"
+  },
+  {
+    "syscall": "statfs",
+    "executions": 9,
+    "totalNewEdges": 3782,
+    "averageNewEdges": 420.222,
+    "maxNewEdges": 578,
+    "errorRate": 1.0,
+    "score": 0.5878,
+    "priority": "medium"
+  },
+  {
+    "syscall": "quotactl$Q_QUOTAON",
+    "executions": 9,
+    "totalNewEdges": 3584,
+    "averageNewEdges": 398.222,
+    "maxNewEdges": 764,
+    "errorRate": 1.0,
+    "score": 0.5829,
+    "priority": "medium"
+  },
+  {
+    "syscall": "removexattr",
+    "executions": 13,
+    "totalNewEdges": 4773,
+    "averageNewEdges": 367.154,
+    "maxNewEdges": 552,
+    "errorRate": 1.0,
+    "score": 0.582,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat$cdrom",
+    "executions": 4,
+    "totalNewEdges": 1799,
+    "averageNewEdges": 449.75,
+    "maxNewEdges": 599,
+    "errorRate": 1.0,
+    "score": 0.5796,
+    "priority": "medium"
+  },
+  {
+    "syscall": "waitid$P_PIDFD",
+    "executions": 8,
+    "totalNewEdges": 3112,
+    "averageNewEdges": 389.0,
+    "maxNewEdges": 654,
+    "errorRate": 1.0,
+    "score": 0.5787,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat$vcs",
+    "executions": 4,
+    "totalNewEdges": 1767,
+    "averageNewEdges": 441.75,
+    "maxNewEdges": 589,
+    "errorRate": 1.0,
+    "score": 0.578,
+    "priority": "medium"
+  },
+  {
+    "syscall": "shmctl$IPC_SET",
+    "executions": 9,
+    "totalNewEdges": 1352,
+    "averageNewEdges": 150.222,
+    "maxNewEdges": 411,
+    "errorRate": 0.4444,
+    "score": 0.578,
+    "priority": "medium"
+  },
+  {
+    "syscall": "getdents64",
+    "executions": 29,
+    "totalNewEdges": 4060,
+    "averageNewEdges": 140.0,
+    "maxNewEdges": 456,
+    "errorRate": 0.5517,
+    "score": 0.5761,
+    "priority": "medium"
+  },
+  {
+    "syscall": "write$P9_RSETATTR",
+    "executions": 8,
+    "totalNewEdges": 570,
+    "averageNewEdges": 71.25,
+    "maxNewEdges": 114,
+    "errorRate": 0.0,
+    "score": 0.5753,
+    "priority": "medium"
+  },
+  {
+    "syscall": "timer_delete",
+    "executions": 12,
+    "totalNewEdges": 1368,
+    "averageNewEdges": 114.0,
+    "maxNewEdges": 281,
+    "errorRate": 0.3333,
+    "score": 0.5748,
+    "priority": "medium"
+  },
+  {
+    "syscall": "fchmodat",
+    "executions": 6,
+    "totalNewEdges": 1733,
+    "averageNewEdges": 288.833,
+    "maxNewEdges": 451,
+    "errorRate": 0.8333,
+    "score": 0.5716,
+    "priority": "medium"
+  },
+  {
+    "syscall": "rmdir",
+    "executions": 8,
+    "totalNewEdges": 2840,
+    "averageNewEdges": 355.0,
+    "maxNewEdges": 532,
+    "errorRate": 1.0,
+    "score": 0.5704,
+    "priority": "medium"
+  },
+  {
+    "syscall": "add_key",
+    "executions": 4,
+    "totalNewEdges": 1600,
+    "averageNewEdges": 400.0,
+    "maxNewEdges": 503,
+    "errorRate": 1.0,
+    "score": 0.569,
+    "priority": "medium"
+  },
+  {
+    "syscall": "rt_sigtimedwait",
+    "executions": 18,
+    "totalNewEdges": 5340,
+    "averageNewEdges": 296.667,
+    "maxNewEdges": 451,
+    "errorRate": 1.0,
+    "score": 0.5684,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat$dir",
+    "executions": 115,
+    "totalNewEdges": 6074,
+    "averageNewEdges": 52.817,
+    "maxNewEdges": 645,
+    "errorRate": 0.1826,
+    "score": 0.568,
+    "priority": "medium"
+  },
+  {
+    "syscall": "setxattr$security_selinux",
+    "executions": 11,
+    "totalNewEdges": 3545,
+    "averageNewEdges": 322.273,
+    "maxNewEdges": 401,
+    "errorRate": 1.0,
+    "score": 0.5672,
+    "priority": "medium"
+  },
+  {
+    "syscall": "close",
+    "executions": 127,
+    "totalNewEdges": 7912,
+    "averageNewEdges": 62.299,
+    "maxNewEdges": 346,
+    "errorRate": 0.2992,
+    "score": 0.5671,
+    "priority": "medium"
+  },
+  {
+    "syscall": "quotactl$Q_QUOTAOFF",
+    "executions": 8,
+    "totalNewEdges": 2675,
+    "averageNewEdges": 334.375,
+    "maxNewEdges": 541,
+    "errorRate": 1.0,
+    "score": 0.565,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socket$nl_generic",
+    "executions": 143,
+    "totalNewEdges": 5055,
+    "averageNewEdges": 35.35,
+    "maxNewEdges": 524,
+    "errorRate": 0.0,
+    "score": 0.5634,
+    "priority": "medium"
+  },
+  {
+    "syscall": "name_to_handle_at",
+    "executions": 8,
+    "totalNewEdges": 2622,
+    "averageNewEdges": 327.75,
+    "maxNewEdges": 414,
+    "errorRate": 1.0,
+    "score": 0.5632,
+    "priority": "medium"
+  },
+  {
+    "syscall": "mount$9p_tcp",
+    "executions": 11,
+    "totalNewEdges": 3270,
+    "averageNewEdges": 297.273,
+    "maxNewEdges": 511,
+    "errorRate": 1.0,
+    "score": 0.5599,
+    "priority": "medium"
+  },
+  {
+    "syscall": "openat2",
+    "executions": 4,
+    "totalNewEdges": 1442,
+    "averageNewEdges": 360.5,
+    "maxNewEdges": 476,
+    "errorRate": 1.0,
+    "score": 0.5596,
+    "priority": "medium"
+  },
+  {
+    "syscall": "socket$nl_netfilter",
+    "executions": 20,
+    "totalNewEdges": 998,
+    "averageNewEdges": 49.9,
+    "maxNewEdges": 500,
+    "errorRate": 0.0,
+    "score": 0.5595,
+    "priority": "medium"
+  },
+  {
+    "syscall": "lstat",
+    "executions": 5,
+    "totalNewEdges": 1704,
+    "averageNewEdges": 340.8,
+    "maxNewEdges": 442,
+    "errorRate": 1.0,
+    "score": 0.5584,
+    "priority": "medium"
+  },
+  {
+    "syscall": "futex",
+    "executions": 4,
+    "totalNewEdges": 1418,
+    "averageNewEdges": 354.5,
+    "maxNewEdges": 438,
+    "errorRate": 1.0,
+    "score": 0.5581,
+    "priority": "medium"
+  },
+  {
+    "syscall": "munmap$IORING_OFF_CQ_RING",
+    "executions": 8,
+    "totalNewEdges": 1057,
+    "averageNewEdges": 132.125,
+    "maxNewEdges": 323,
+    "errorRate": 0.5,
+    "score": 0.556,
+    "priority": "medium"
+  },
+  {
+    "syscall": "fcntl$setownex",
+    "executions": 16,
+    "totalNewEdges": 1798,
+    "averageNewEdges": 112.375,
+    "maxNewEdges": 279,
+    "errorRate": 0.5,
+    "score": 0.5535,
+    "priority": "medium"
+  },
+  {
+    "syscall": "pivot_root",
+    "executions": 17,
+    "totalNewEdges": 4301,
+    "averageNewEdges": 253.0,
+    "maxNewEdges": 417,
+    "errorRate": 1.0,
+    "score": 0.553,
+    "priority": "medium"
+  },
+  {
+    "syscall": "statx",
+    "executions": 8,
+    "totalNewEdges": 2337,
+    "averageNewEdges": 292.125,
+    "maxNewEdges": 422,
+    "errorRate": 1.0,
+    "score": 0.5527,
+    "priority": "medium"
+  },
+  {
+    "syscall": "pipe2$watch_queue",
+    "executions": 4,
+    "totalNewEdges": 1335,
+    "averageNewEdges": 333.75,
+    "maxNewEdges": 431,
+    "errorRate": 1.0,
+    "score": 0.5526,
+    "priority": "medium"
+  },
+  {
+    "syscall": "ptrace",
+    "executions": 104,
+    "totalNewEdges": 6408,
+    "averageNewEdges": 61.615,
+    "maxNewEdges": 428,
+    "errorRate": 0.375,
+    "score": 0.5512,
+    "priority": "medium"
+  },
+  {
+    "syscall": "getxattr",
+    "executions": 16,
+    "totalNewEdges": 4005,
+    "averageNewEdges": 250.312,
+    "maxNewEdges": 428,
+    "errorRate": 1.0,
+    "score": 0.5509,
+    "priority": "medium"
+  },
+  {
+    "syscall": "syz_genetlink_get_family_id$ipvs",
+    "executions": 5,
+    "totalNewEdges": 1556,
+    "averageNewEdges": 311.2,
+    "maxNewEdges": 398,
+    "errorRate": 1.0,
+    "score": 0.5502,
+    "priority": "medium"
+  },
+  {
+    "syscall": "readlinkat",
+    "executions": 12,
+    "totalNewEdges": 3116,
+    "averageNewEdges": 259.667,
+    "maxNewEdges": 416,
+    "errorRate": 1.0,
+    "score": 0.5492,
+    "priority": "medium"
+  },
+  {
+    "syscall": "fadvise64",
+    "executions": 8,
+    "totalNewEdges": 972,
+    "averageNewEdges": 121.5,
+    "maxNewEdges": 280,
+    "errorRate": 0.5,
+    "score": 0.5484,
+    "priority": "medium"
+  },
+  {
+    "syscall": "perf_event_open",
+    "executions": 8,
+    "totalNewEdges": 2187,
+    "averageNewEdges": 273.375,
+    "maxNewEdges": 382,
+    "errorRate": 1.0,
+    "score": 0.5467,
+    "priority": "medium"
+  },
+  {
+    "syscall": "fremovexattr",
+    "executions": 8,
+    "totalNewEdges": 2092,
+    "averageNewEdges": 261.5,
+    "maxNewEdges": 393,
+    "errorRate": 1.0,
+    "score": 0.5427,
+    "priority": "medium"
+  },
+  {
+    "syscall": "setxattr$trusted_overlay_upper",
+    "executions": 4,
+    "totalNewEdges": 1193,
+    "averageNewEdges": 298.25,
+    "maxNewEdges": 396,
+    "errorRate": 1.0,
+    "score": 0.5424,
+    "priority": "medium"
+  },
+  {
+    "syscall": "semctl$SEM_INFO",
+    "executions": 6,
+    "totalNewEdges": 1208,
+    "averageNewEdges": 201.333,
+    "maxNewEdges": 394,
+    "errorRate": 0.8333,
+    "score": 0.539,
+    "priority": "medium"
+  },
+  {
+    "syscall": "getsockopt$sock_timeval",
+    "executions": 4,
+    "totalNewEdges": 215,
+    "averageNewEdges": 53.75,
+    "maxNewEdges": 65,
+    "errorRate": 0.0,
+    "score": 0.5379,
+    "priority": "medium"
+  },
+  {
+    "syscall": "move_mount",
+    "executions": 29,
+    "totalNewEdges": 5410,
+    "averageNewEdges": 186.552,
+    "maxNewEdges": 440,
+    "errorRate": 1.0,
+    "score": 0.5348,
+    "priority": "medium"
+  },
+  {
+    "syscall": "recvmmsg",
+    "executions": 18,
+    "totalNewEdges": 1455,
+    "averageNewEdges": 80.833,
+    "maxNewEdges": 285,
+    "errorRate": 0.4444,
+    "score": 0.5343,
+    "priority": "medium"
+  },
+  {
+    "syscall": "sendmmsg$inet",
+    "executions": 26,
+    "totalNewEdges": 4915,
+    "averageNewEdges": 189.038,
+    "maxNewEdges": 369,
+    "errorRate": 1.0,
+    "score": 0.5341,
+    "priority": "medium"
+  },
+  {
+    "syscall": "getsockopt$inet6_opts",
+    "executions": 12,
+    "totalNewEdges": 998,
+    "averageNewEdges": 83.167,
+    "maxNewEdges": 200,
+    "errorRate": 0.4167,
+    "score": 0.5339,
+    "priority": "medium"
+  },
+  {
+    "syscall": "io_uring_enter",
+    "executions": 62,
+    "totalNewEdges": 3944,
+    "averageNewEdges": 63.613,
+    "maxNewEdges": 284,
+    "errorRate": 0.4516,
+    "score": 0.5334,
+    "priority": "medium"
+  },
+  {
+    "syscall": "shmctl$IPC_RMID",
+    "executions": 5,
+    "totalNewEdges": 927,
+    "averageNewEdges": 185.4,
+    "maxNewEdges": 292,
+    "errorRate": 0.8,
+    "score": 0.5333,
+    "priority": "medium"
+  },
+  {
+    "syscall": "nanosleep",
+    "executions": 41,
+    "totalNewEdges": 4475,
+    "averageNewEdges": 109.146,
+    "maxNewEdges": 426,
+    "errorRate": 0.7317,
+    "score": 0.5327,
+    "priority": "low"
+  },
+  {
+    "syscall": "bind$inet",
+    "executions": 34,
+    "totalNewEdges": 2489,
+    "averageNewEdges": 73.206,
+    "maxNewEdges": 280,
+    "errorRate": 0.4706,
+    "score": 0.5326,
+    "priority": "low"
+  },
+  {
+    "syscall": "fsetxattr$security_selinux",
+    "executions": 4,
+    "totalNewEdges": 1065,
+    "averageNewEdges": 266.25,
+    "maxNewEdges": 343,
+    "errorRate": 1.0,
+    "score": 0.5321,
+    "priority": "low"
+  },
+  {
+    "syscall": "openat2$dir",
+    "executions": 12,
+    "totalNewEdges": 2564,
+    "averageNewEdges": 213.667,
+    "maxNewEdges": 290,
+    "errorRate": 1.0,
+    "score": 0.5316,
+    "priority": "low"
+  },
+  {
+    "syscall": "getsockopt$sock_cred",
+    "executions": 14,
+    "totalNewEdges": 1108,
+    "averageNewEdges": 79.143,
+    "maxNewEdges": 179,
+    "errorRate": 0.4286,
+    "score": 0.5303,
+    "priority": "low"
+  },
+  {
+    "syscall": "shmctl$IPC_STAT",
+    "executions": 5,
+    "totalNewEdges": 887,
+    "averageNewEdges": 177.4,
+    "maxNewEdges": 294,
+    "errorRate": 0.8,
+    "score": 0.5293,
+    "priority": "low"
+  },
+  {
+    "syscall": "getsockopt$inet_udp_int",
+    "executions": 10,
+    "totalNewEdges": 920,
+    "averageNewEdges": 92.0,
+    "maxNewEdges": 169,
+    "errorRate": 0.5,
+    "score": 0.5272,
+    "priority": "low"
+  },
+  {
+    "syscall": "kcmp",
+    "executions": 5,
+    "totalNewEdges": 1201,
+    "averageNewEdges": 240.2,
+    "maxNewEdges": 311,
+    "errorRate": 1.0,
+    "score": 0.5267,
+    "priority": "low"
+  },
+  {
+    "syscall": "sendmsg$TIPC_NL_NODE_GET",
+    "executions": 12,
+    "totalNewEdges": 1394,
+    "averageNewEdges": 116.167,
+    "maxNewEdges": 209,
+    "errorRate": 0.6667,
+    "score": 0.5265,
+    "priority": "low"
+  },
+  {
+    "syscall": "fstat",
+    "executions": 5,
+    "totalNewEdges": 1191,
+    "averageNewEdges": 238.2,
+    "maxNewEdges": 309,
+    "errorRate": 1.0,
+    "score": 0.526,
+    "priority": "low"
+  },
+  {
+    "syscall": "connect$inet6",
+    "executions": 5,
+    "totalNewEdges": 1151,
+    "averageNewEdges": 230.2,
+    "maxNewEdges": 307,
+    "errorRate": 1.0,
+    "score": 0.5229,
+    "priority": "low"
+  },
+  {
+    "syscall": "readv",
+    "executions": 5,
+    "totalNewEdges": 1149,
+    "averageNewEdges": 229.8,
+    "maxNewEdges": 301,
+    "errorRate": 1.0,
+    "score": 0.5227,
+    "priority": "low"
+  },
+  {
+    "syscall": "write",
+    "executions": 27,
+    "totalNewEdges": 2034,
+    "averageNewEdges": 75.333,
+    "maxNewEdges": 847,
+    "errorRate": 0.5556,
+    "score": 0.5184,
+    "priority": "low"
+  },
+  {
+    "syscall": "openat$bsg",
+    "executions": 4,
+    "totalNewEdges": 899,
+    "averageNewEdges": 224.75,
+    "maxNewEdges": 306,
+    "errorRate": 1.0,
+    "score": 0.5168,
+    "priority": "low"
+  },
+  {
+    "syscall": "msgctl$IPC_STAT",
+    "executions": 4,
+    "totalNewEdges": 895,
+    "averageNewEdges": 223.75,
+    "maxNewEdges": 294,
+    "errorRate": 1.0,
+    "score": 0.5164,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$int_in",
+    "executions": 8,
+    "totalNewEdges": 679,
+    "averageNewEdges": 84.875,
+    "maxNewEdges": 150,
+    "errorRate": 0.5,
+    "score": 0.5161,
+    "priority": "low"
+  },
+  {
+    "syscall": "setsockopt$netlink_NETLINK_CAP_ACK",
+    "executions": 8,
+    "totalNewEdges": 292,
+    "averageNewEdges": 36.5,
+    "maxNewEdges": 49,
+    "errorRate": 0.0,
+    "score": 0.5155,
+    "priority": "low"
+  },
+  {
+    "syscall": "prctl$PR_SET_NO_NEW_PRIVS",
+    "executions": 44,
+    "totalNewEdges": 1133,
+    "averageNewEdges": 25.75,
+    "maxNewEdges": 307,
+    "errorRate": 0.0,
+    "score": 0.5146,
+    "priority": "low"
+  },
+  {
+    "syscall": "keyctl$link",
+    "executions": 4,
+    "totalNewEdges": 872,
+    "averageNewEdges": 218.0,
+    "maxNewEdges": 287,
+    "errorRate": 1.0,
+    "score": 0.514,
+    "priority": "low"
+  },
+  {
+    "syscall": "flistxattr",
+    "executions": 4,
+    "totalNewEdges": 869,
+    "averageNewEdges": 217.25,
+    "maxNewEdges": 286,
+    "errorRate": 1.0,
+    "score": 0.5137,
+    "priority": "low"
+  },
+  {
+    "syscall": "io_uring_register$IORING_REGISTER_EVENTFD",
+    "executions": 4,
+    "totalNewEdges": 864,
+    "averageNewEdges": 216.0,
+    "maxNewEdges": 277,
+    "errorRate": 1.0,
+    "score": 0.5132,
+    "priority": "low"
+  },
+  {
+    "syscall": "open",
+    "executions": 4,
+    "totalNewEdges": 863,
+    "averageNewEdges": 215.75,
+    "maxNewEdges": 286,
+    "errorRate": 1.0,
+    "score": 0.5131,
+    "priority": "low"
+  },
+  {
+    "syscall": "prctl$PR_GET_UNALIGN",
+    "executions": 4,
+    "totalNewEdges": 859,
+    "averageNewEdges": 214.75,
+    "maxNewEdges": 286,
+    "errorRate": 1.0,
+    "score": 0.5127,
+    "priority": "low"
+  },
+  {
+    "syscall": "open_by_handle_at",
+    "executions": 19,
+    "totalNewEdges": 3010,
+    "averageNewEdges": 158.421,
+    "maxNewEdges": 387,
+    "errorRate": 1.0,
+    "score": 0.5126,
+    "priority": "low"
+  },
+  {
+    "syscall": "sendmmsg$sock",
+    "executions": 4,
+    "totalNewEdges": 853,
+    "averageNewEdges": 213.25,
+    "maxNewEdges": 282,
+    "errorRate": 1.0,
+    "score": 0.512,
+    "priority": "low"
+  },
+  {
+    "syscall": "timer_getoverrun",
+    "executions": 4,
+    "totalNewEdges": 848,
+    "averageNewEdges": 212.0,
+    "maxNewEdges": 281,
+    "errorRate": 1.0,
+    "score": 0.5115,
+    "priority": "low"
+  },
+  {
+    "syscall": "getdents",
+    "executions": 4,
+    "totalNewEdges": 845,
+    "averageNewEdges": 211.25,
+    "maxNewEdges": 279,
+    "errorRate": 1.0,
+    "score": 0.5112,
+    "priority": "low"
+  },
+  {
+    "syscall": "syncfs",
+    "executions": 4,
+    "totalNewEdges": 845,
+    "averageNewEdges": 211.25,
+    "maxNewEdges": 279,
+    "errorRate": 1.0,
+    "score": 0.5112,
+    "priority": "low"
+  },
+  {
+    "syscall": "accept$inet",
+    "executions": 4,
+    "totalNewEdges": 845,
+    "averageNewEdges": 211.25,
+    "maxNewEdges": 280,
+    "errorRate": 1.0,
+    "score": 0.5112,
+    "priority": "low"
+  },
+  {
+    "syscall": "copy_file_range",
+    "executions": 4,
+    "totalNewEdges": 845,
+    "averageNewEdges": 211.25,
+    "maxNewEdges": 280,
+    "errorRate": 1.0,
+    "score": 0.5112,
+    "priority": "low"
+  },
+  {
+    "syscall": "setsockopt$netlink_NETLINK_RX_RING",
+    "executions": 4,
+    "totalNewEdges": 845,
+    "averageNewEdges": 211.25,
+    "maxNewEdges": 280,
+    "errorRate": 1.0,
+    "score": 0.5112,
+    "priority": "low"
+  },
+  {
+    "syscall": "getsockname$packet",
+    "executions": 4,
+    "totalNewEdges": 844,
+    "averageNewEdges": 211.0,
+    "maxNewEdges": 280,
+    "errorRate": 1.0,
+    "score": 0.5111,
+    "priority": "low"
+  },
+  {
+    "syscall": "getsockopt$inet6_mtu",
+    "executions": 4,
+    "totalNewEdges": 844,
+    "averageNewEdges": 211.0,
+    "maxNewEdges": 280,
+    "errorRate": 1.0,
+    "score": 0.5111,
+    "priority": "low"
+  },
+  {
+    "syscall": "quotactl_fd$Q_SYNC",
+    "executions": 4,
+    "totalNewEdges": 844,
+    "averageNewEdges": 211.0,
+    "maxNewEdges": 280,
+    "errorRate": 1.0,
+    "score": 0.5111,
+    "priority": "low"
+  },
+  {
+    "syscall": "getpeername",
+    "executions": 4,
+    "totalNewEdges": 842,
+    "averageNewEdges": 210.5,
+    "maxNewEdges": 280,
+    "errorRate": 1.0,
+    "score": 0.5109,
+    "priority": "low"
+  },
+  {
+    "syscall": "fsetxattr",
+    "executions": 4,
+    "totalNewEdges": 836,
+    "averageNewEdges": 209.0,
+    "maxNewEdges": 278,
+    "errorRate": 1.0,
+    "score": 0.5102,
+    "priority": "low"
+  },
+  {
+    "syscall": "remap_file_pages",
+    "executions": 4,
+    "totalNewEdges": 835,
+    "averageNewEdges": 208.75,
+    "maxNewEdges": 276,
+    "errorRate": 1.0,
+    "score": 0.5101,
+    "priority": "low"
+  },
+  {
+    "syscall": "dup",
+    "executions": 4,
+    "totalNewEdges": 833,
+    "averageNewEdges": 208.25,
+    "maxNewEdges": 276,
+    "errorRate": 1.0,
+    "score": 0.5099,
+    "priority": "low"
+  },
+  {
+    "syscall": "semctl$GETNCNT",
+    "executions": 4,
+    "totalNewEdges": 829,
+    "averageNewEdges": 207.25,
+    "maxNewEdges": 275,
+    "errorRate": 1.0,
+    "score": 0.5095,
+    "priority": "low"
+  },
+  {
+    "syscall": "sched_setattr",
+    "executions": 4,
+    "totalNewEdges": 823,
+    "averageNewEdges": 205.75,
+    "maxNewEdges": 274,
+    "errorRate": 1.0,
+    "score": 0.5088,
+    "priority": "low"
+  },
+  {
+    "syscall": "fcntl$setsig",
+    "executions": 5,
+    "totalNewEdges": 180,
+    "averageNewEdges": 36.0,
+    "maxNewEdges": 45,
+    "errorRate": 0.0,
+    "score": 0.5061,
+    "priority": "low"
+  },
+  {
+    "syscall": "shmat",
+    "executions": 5,
+    "totalNewEdges": 955,
+    "averageNewEdges": 191.0,
+    "maxNewEdges": 293,
+    "errorRate": 1.0,
+    "score": 0.506,
+    "priority": "low"
+  },
+  {
+    "syscall": "setsockopt$netlink_NETLINK_DROP_MEMBERSHIP",
+    "executions": 8,
+    "totalNewEdges": 602,
+    "averageNewEdges": 75.25,
+    "maxNewEdges": 128,
+    "errorRate": 0.5,
+    "score": 0.5052,
+    "priority": "low"
+  },
+  {
+    "syscall": "getpid",
+    "executions": 39,
+    "totalNewEdges": 1140,
+    "averageNewEdges": 29.231,
+    "maxNewEdges": 284,
+    "errorRate": 0.1282,
+    "score": 0.5045,
+    "priority": "low"
+  },
+  {
+    "syscall": "lsetxattr$system_posix_acl",
+    "executions": 8,
+    "totalNewEdges": 1310,
+    "averageNewEdges": 163.75,
+    "maxNewEdges": 434,
+    "errorRate": 1.0,
+    "score": 0.5003,
+    "priority": "low"
+  },
+  {
+    "syscall": "shmget",
+    "executions": 5,
+    "totalNewEdges": 877,
+    "averageNewEdges": 175.4,
+    "maxNewEdges": 287,
+    "errorRate": 1.0,
+    "score": 0.4983,
+    "priority": "low"
+  },
+  {
+    "syscall": "mount$cgroup",
+    "executions": 4,
+    "totalNewEdges": 711,
+    "averageNewEdges": 177.75,
+    "maxNewEdges": 235,
+    "errorRate": 1.0,
+    "score": 0.4956,
+    "priority": "low"
+  },
+  {
+    "syscall": "recvfrom",
+    "executions": 23,
+    "totalNewEdges": 2176,
+    "averageNewEdges": 94.609,
+    "maxNewEdges": 313,
+    "errorRate": 0.8261,
+    "score": 0.4955,
+    "priority": "low"
+  },
+  {
+    "syscall": "pread64",
+    "executions": 13,
+    "totalNewEdges": 1774,
+    "averageNewEdges": 136.462,
+    "maxNewEdges": 305,
+    "errorRate": 1.0,
+    "score": 0.4924,
+    "priority": "low"
+  },
+  {
+    "syscall": "write$rfkill",
+    "executions": 14,
+    "totalNewEdges": 715,
+    "averageNewEdges": 51.071,
+    "maxNewEdges": 73,
+    "errorRate": 0.4286,
+    "score": 0.491,
+    "priority": "low"
+  },
+  {
+    "syscall": "fchmod",
+    "executions": 14,
+    "totalNewEdges": 1786,
+    "averageNewEdges": 127.571,
+    "maxNewEdges": 279,
+    "errorRate": 1.0,
+    "score": 0.4876,
+    "priority": "low"
+  },
+  {
+    "syscall": "fcntl$getown",
+    "executions": 4,
+    "totalNewEdges": 121,
+    "averageNewEdges": 30.25,
+    "maxNewEdges": 33,
+    "errorRate": 0.0,
+    "score": 0.4867,
+    "priority": "low"
+  },
+  {
+    "syscall": "accept4$inet6",
+    "executions": 8,
+    "totalNewEdges": 1123,
+    "averageNewEdges": 140.375,
+    "maxNewEdges": 280,
+    "errorRate": 1.0,
+    "score": 0.4864,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$sock_SIOCSIFVLAN_ADD_VLAN_CMD",
+    "executions": 4,
+    "totalNewEdges": 626,
+    "averageNewEdges": 156.5,
+    "maxNewEdges": 208,
+    "errorRate": 1.0,
+    "score": 0.4841,
+    "priority": "low"
+  },
+  {
+    "syscall": "socket$inet_udp",
+    "executions": 101,
+    "totalNewEdges": 1524,
+    "averageNewEdges": 15.089,
+    "maxNewEdges": 507,
+    "errorRate": 0.0,
+    "score": 0.4826,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$sock_ipv4_tunnel_SIOCGETTUNNEL",
+    "executions": 13,
+    "totalNewEdges": 1580,
+    "averageNewEdges": 121.538,
+    "maxNewEdges": 440,
+    "errorRate": 1.0,
+    "score": 0.482,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$ifreq_SIOCGIFINDEX_vcan",
+    "executions": 6,
+    "totalNewEdges": 839,
+    "averageNewEdges": 139.833,
+    "maxNewEdges": 279,
+    "errorRate": 1.0,
+    "score": 0.481,
+    "priority": "low"
+  },
+  {
+    "syscall": "setsockopt$inet6_int",
+    "executions": 8,
+    "totalNewEdges": 445,
+    "averageNewEdges": 55.625,
+    "maxNewEdges": 75,
+    "errorRate": 0.5,
+    "score": 0.4781,
+    "priority": "low"
+  },
+  {
+    "syscall": "add_key$fscrypt_provisioning",
+    "executions": 4,
+    "totalNewEdges": 581,
+    "averageNewEdges": 145.25,
+    "maxNewEdges": 181,
+    "errorRate": 1.0,
+    "score": 0.4773,
+    "priority": "low"
+  },
+  {
+    "syscall": "sendmsg$NL80211_CMD_GET_COALESCE",
+    "executions": 4,
+    "totalNewEdges": 537,
+    "averageNewEdges": 134.25,
+    "maxNewEdges": 194,
+    "errorRate": 1.0,
+    "score": 0.4702,
+    "priority": "low"
+  },
+  {
+    "syscall": "getsockopt$ARPT_SO_GET_REVISION_TARGET",
+    "executions": 4,
+    "totalNewEdges": 528,
+    "averageNewEdges": 132.0,
+    "maxNewEdges": 175,
+    "errorRate": 1.0,
+    "score": 0.4687,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$ifreq_SIOCGIFINDEX_team",
+    "executions": 4,
+    "totalNewEdges": 519,
+    "averageNewEdges": 129.75,
+    "maxNewEdges": 168,
+    "errorRate": 1.0,
+    "score": 0.4671,
+    "priority": "low"
+  },
+  {
+    "syscall": "sync_file_range",
+    "executions": 10,
+    "totalNewEdges": 1038,
+    "averageNewEdges": 103.8,
+    "maxNewEdges": 297,
+    "errorRate": 1.0,
+    "score": 0.4631,
+    "priority": "low"
+  },
+  {
+    "syscall": "getsockopt$ARPT_SO_GET_INFO",
+    "executions": 8,
+    "totalNewEdges": 847,
+    "averageNewEdges": 105.875,
+    "maxNewEdges": 175,
+    "errorRate": 1.0,
+    "score": 0.461,
+    "priority": "low"
+  },
+  {
+    "syscall": "recvmsg",
+    "executions": 10,
+    "totalNewEdges": 995,
+    "averageNewEdges": 99.5,
+    "maxNewEdges": 282,
+    "errorRate": 1.0,
+    "score": 0.4593,
+    "priority": "low"
+  },
+  {
+    "syscall": "pwritev2",
+    "executions": 10,
+    "totalNewEdges": 980,
+    "averageNewEdges": 98.0,
+    "maxNewEdges": 284,
+    "errorRate": 1.0,
+    "score": 0.4579,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$sock_SIOCGIFINDEX_80211",
+    "executions": 28,
+    "totalNewEdges": 2244,
+    "averageNewEdges": 80.143,
+    "maxNewEdges": 406,
+    "errorRate": 1.0,
+    "score": 0.4579,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$AUTOFS_DEV_IOCTL_PROTOVER",
+    "executions": 8,
+    "totalNewEdges": 814,
+    "averageNewEdges": 101.75,
+    "maxNewEdges": 176,
+    "errorRate": 1.0,
+    "score": 0.4574,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl",
+    "executions": 18,
+    "totalNewEdges": 937,
+    "averageNewEdges": 52.056,
+    "maxNewEdges": 168,
+    "errorRate": 0.7222,
+    "score": 0.4531,
+    "priority": "low"
+  },
+  {
+    "syscall": "fsetxattr$security_ima",
+    "executions": 4,
+    "totalNewEdges": 427,
+    "averageNewEdges": 106.75,
+    "maxNewEdges": 133,
+    "errorRate": 1.0,
+    "score": 0.4495,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$FS_IOC_FSSETXATTR",
+    "executions": 35,
+    "totalNewEdges": 2309,
+    "averageNewEdges": 65.971,
+    "maxNewEdges": 162,
+    "errorRate": 1.0,
+    "score": 0.4444,
+    "priority": "low"
+  },
+  {
+    "syscall": "sendmsg$sock",
+    "executions": 4,
+    "totalNewEdges": 378,
+    "averageNewEdges": 94.5,
+    "maxNewEdges": 116,
+    "errorRate": 1.0,
+    "score": 0.4385,
+    "priority": "low"
+  },
+  {
+    "syscall": "dup3",
+    "executions": 12,
+    "totalNewEdges": 913,
+    "averageNewEdges": 76.083,
+    "maxNewEdges": 276,
+    "errorRate": 1.0,
+    "score": 0.4384,
+    "priority": "low"
+  },
+  {
+    "syscall": "arch_prctl$ARCH_SHSTK_DISABLE",
+    "executions": 11,
+    "totalNewEdges": 842,
+    "averageNewEdges": 76.545,
+    "maxNewEdges": 278,
+    "errorRate": 1.0,
+    "score": 0.4374,
+    "priority": "low"
+  },
+  {
+    "syscall": "fsconfig$FSCONFIG_SET_PATH_EMPTY",
+    "executions": 16,
+    "totalNewEdges": 1021,
+    "averageNewEdges": 63.812,
+    "maxNewEdges": 275,
+    "errorRate": 1.0,
+    "score": 0.4276,
+    "priority": "low"
+  },
+  {
+    "syscall": "io_uring_register$IORING_REGISTER_RING_FDS",
+    "executions": 29,
+    "totalNewEdges": 1405,
+    "averageNewEdges": 48.448,
+    "maxNewEdges": 76,
+    "errorRate": 1.0,
+    "score": 0.4134,
+    "priority": "low"
+  },
+  {
+    "syscall": "mmap$binder",
+    "executions": 16,
+    "totalNewEdges": 824,
+    "averageNewEdges": 51.5,
+    "maxNewEdges": 274,
+    "errorRate": 1.0,
+    "score": 0.4084,
+    "priority": "low"
+  },
+  {
+    "syscall": "setsockopt$IP_VS_SO_SET_EDIT",
+    "executions": 4,
+    "totalNewEdges": 267,
+    "averageNewEdges": 66.75,
+    "maxNewEdges": 80,
+    "errorRate": 1.0,
+    "score": 0.4073,
+    "priority": "low"
+  },
+  {
+    "syscall": "setsockopt$inet6_IPV6_FLOWLABEL_MGR",
+    "executions": 8,
+    "totalNewEdges": 463,
+    "averageNewEdges": 57.875,
+    "maxNewEdges": 76,
+    "errorRate": 1.0,
+    "score": 0.4067,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$FS_IOC_SETFLAGS",
+    "executions": 4,
+    "totalNewEdges": 234,
+    "averageNewEdges": 58.5,
+    "maxNewEdges": 71,
+    "errorRate": 1.0,
+    "score": 0.3955,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$sock_inet_SIOCGIFNETMASK",
+    "executions": 6,
+    "totalNewEdges": 306,
+    "averageNewEdges": 51.0,
+    "maxNewEdges": 61,
+    "errorRate": 1.0,
+    "score": 0.3903,
+    "priority": "low"
+  },
+  {
+    "syscall": "io_uring_register$IORING_UNREGISTER_PERSONALITY",
+    "executions": 7,
+    "totalNewEdges": 341,
+    "averageNewEdges": 48.714,
+    "maxNewEdges": 56,
+    "errorRate": 1.0,
+    "score": 0.3889,
+    "priority": "low"
+  },
+  {
+    "syscall": "setsockopt$inet_udp_encap",
+    "executions": 8,
+    "totalNewEdges": 343,
+    "averageNewEdges": 42.875,
+    "maxNewEdges": 65,
+    "errorRate": 1.0,
+    "score": 0.3799,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$OCFS2_IOC_GROUP_EXTEND",
+    "executions": 4,
+    "totalNewEdges": 160,
+    "averageNewEdges": 40.0,
+    "maxNewEdges": 52,
+    "errorRate": 1.0,
+    "score": 0.3615,
+    "priority": "low"
+  },
+  {
+    "syscall": "quotactl_fd$Q_QUOTAON",
+    "executions": 6,
+    "totalNewEdges": 220,
+    "averageNewEdges": 36.667,
+    "maxNewEdges": 50,
+    "errorRate": 1.0,
+    "score": 0.3609,
+    "priority": "low"
+  },
+  {
+    "syscall": "kcmp$KCMP_EPOLL_TFD",
+    "executions": 20,
+    "totalNewEdges": 575,
+    "averageNewEdges": 28.75,
+    "maxNewEdges": 30,
+    "errorRate": 1.0,
+    "score": 0.3605,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$BLKOPENZONE",
+    "executions": 4,
+    "totalNewEdges": 143,
+    "averageNewEdges": 35.75,
+    "maxNewEdges": 47,
+    "errorRate": 1.0,
+    "score": 0.3515,
+    "priority": "low"
+  },
+  {
+    "syscall": "sendmsg$NL80211_CMD_CONNECT",
+    "executions": 1,
+    "totalNewEdges": 8,
+    "averageNewEdges": 8.0,
+    "maxNewEdges": 8,
+    "errorRate": 0.0,
+    "score": 0.3496,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$BLKBSZSET",
+    "executions": 6,
+    "totalNewEdges": 173,
+    "averageNewEdges": 28.833,
+    "maxNewEdges": 34,
+    "errorRate": 1.0,
+    "score": 0.3396,
+    "priority": "low"
+  },
+  {
+    "syscall": "fcntl$setpipe",
+    "executions": 4,
+    "totalNewEdges": 111,
+    "averageNewEdges": 27.75,
+    "maxNewEdges": 35,
+    "errorRate": 1.0,
+    "score": 0.3291,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$BTRFS_IOC_SYNC",
+    "executions": 4,
+    "totalNewEdges": 109,
+    "averageNewEdges": 27.25,
+    "maxNewEdges": 35,
+    "errorRate": 1.0,
+    "score": 0.3275,
+    "priority": "low"
+  },
+  {
+    "syscall": "semctl$GETALL",
+    "executions": 2,
+    "totalNewEdges": 62,
+    "averageNewEdges": 31.0,
+    "maxNewEdges": 31,
+    "errorRate": 1.0,
+    "score": 0.3268,
+    "priority": "low"
+  },
+  {
+    "syscall": "setsockopt$inet_tcp_TCP_CONGESTION",
+    "executions": 4,
+    "totalNewEdges": 82,
+    "averageNewEdges": 20.5,
+    "maxNewEdges": 25,
+    "errorRate": 1.0,
+    "score": 0.3026,
+    "priority": "low"
+  },
+  {
+    "syscall": "sendmmsg",
+    "executions": 4,
+    "totalNewEdges": 82,
+    "averageNewEdges": 20.5,
+    "maxNewEdges": 27,
+    "errorRate": 1.0,
+    "score": 0.3026,
+    "priority": "low"
+  },
+  {
+    "syscall": "sendmsg$nl_generic",
+    "executions": 4,
+    "totalNewEdges": 82,
+    "averageNewEdges": 20.5,
+    "maxNewEdges": 27,
+    "errorRate": 1.0,
+    "score": 0.3026,
+    "priority": "low"
+  },
+  {
+    "syscall": "pidfd_getfd",
+    "executions": 8,
+    "totalNewEdges": 138,
+    "averageNewEdges": 17.25,
+    "maxNewEdges": 28,
+    "errorRate": 1.0,
+    "score": 0.2996,
+    "priority": "low"
+  },
+  {
+    "syscall": "getsockopt$IP_VS_SO_GET_DAEMON",
+    "executions": 4,
+    "totalNewEdges": 76,
+    "averageNewEdges": 19.0,
+    "maxNewEdges": 25,
+    "errorRate": 1.0,
+    "score": 0.2959,
+    "priority": "low"
+  },
+  {
+    "syscall": "syz_create_resource$binfmt",
+    "executions": 40,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 0.0,
+    "score": 0.15,
+    "priority": "low"
+  },
+  {
+    "syscall": "syz_io_uring_complete",
+    "executions": 27,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 0.0,
+    "score": 0.15,
+    "priority": "low"
+  },
+  {
+    "syscall": "syz_io_uring_modify_offsets$flags",
+    "executions": 1,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 0.0,
+    "score": 0.15,
+    "priority": "low"
+  },
+  {
+    "syscall": "ptrace$getregset",
+    "executions": 7,
+    "totalNewEdges": 14,
+    "averageNewEdges": 2.0,
+    "maxNewEdges": 14,
+    "errorRate": 1.0,
+    "score": 0.1282,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$FS_IOC_ADD_ENCRYPTION_KEY",
+    "executions": 2,
+    "totalNewEdges": 4,
+    "averageNewEdges": 2.0,
+    "maxNewEdges": 4,
+    "errorRate": 1.0,
+    "score": 0.1088,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$FS_IOC_SET_ENCRYPTION_POLICY",
+    "executions": 2,
+    "totalNewEdges": 4,
+    "averageNewEdges": 2.0,
+    "maxNewEdges": 4,
+    "errorRate": 1.0,
+    "score": 0.1088,
+    "priority": "low"
+  },
+  {
+    "syscall": "ptrace$ARCH_SHSTK_ENABLE",
+    "executions": 2,
+    "totalNewEdges": 3,
+    "averageNewEdges": 1.5,
+    "maxNewEdges": 3,
+    "errorRate": 1.0,
+    "score": 0.0915,
+    "priority": "low"
+  },
+  {
+    "syscall": "ptrace$ARCH_SHSTK_DISABLE",
+    "executions": 3,
+    "totalNewEdges": 3,
+    "averageNewEdges": 1.0,
+    "maxNewEdges": 3,
+    "errorRate": 1.0,
+    "score": 0.0752,
+    "priority": "low"
+  },
+  {
+    "syscall": "syz_genetlink_get_family_id$tipc2",
+    "executions": 1,
+    "totalNewEdges": 1,
+    "averageNewEdges": 1.0,
+    "maxNewEdges": 1,
+    "errorRate": 1.0,
+    "score": 0.063,
+    "priority": "low"
+  },
+  {
+    "syscall": "arch_prctl$ARCH_SHSTK_ENABLE",
+    "executions": 9,
+    "totalNewEdges": 3,
+    "averageNewEdges": 0.333,
+    "maxNewEdges": 1,
+    "errorRate": 1.0,
+    "score": 0.0455,
+    "priority": "low"
+  },
+  {
+    "syscall": "arch_prctl$ARCH_SHSTK_UNLOCK",
+    "executions": 3,
+    "totalNewEdges": 1,
+    "averageNewEdges": 0.333,
+    "maxNewEdges": 1,
+    "errorRate": 1.0,
+    "score": 0.0333,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$PTP_SYS_OFFSET_EXTENDED",
+    "executions": 4,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  },
+  {
+    "syscall": "exit_group",
+    "executions": 5,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  },
+  {
+    "syscall": "sendto$inet_nvme_pdu",
+    "executions": 7,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$BINDER_SET_CONTEXT_MGR_EXT",
+    "executions": 6,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  },
+  {
+    "syscall": "ioctl$BINDER_WRITE_READ",
+    "executions": 6,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  },
+  {
+    "syscall": "ptrace$ARCH_SHSTK_UNLOCK",
+    "executions": 1,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  },
+  {
+    "syscall": "ptrace$setregset",
+    "executions": 1,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  },
+  {
+    "syscall": "fcntl$getflags",
+    "executions": 1,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  },
+  {
+    "syscall": "getsockopt$inet_IP_IPSEC_POLICY",
+    "executions": 1,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  },
+  {
+    "syscall": "getsockopt$inet6_IPV6_IPSEC_POLICY",
+    "executions": 1,
+    "totalNewEdges": 0,
+    "averageNewEdges": 0.0,
+    "maxNewEdges": 0,
+    "errorRate": 1.0,
+    "score": 0.0,
+    "priority": "low"
+  }
+]
