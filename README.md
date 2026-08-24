@@ -1,92 +1,236 @@
 # VID — AI-Guided Adaptive Kernel Runtime Intelligence Framework
 
-> National Level SSM Hackathon 2026 · CDAC · Track: AI Usage at OS-Kernel Level
-> Team: **Open Thinkers** — Om Karkele · Yash Kashid · Devayani Jadhav
+> **National Level SSM Hackathon 2026 · CDAC**  
+> **Track:** Open Innovation — Linux Based  
+> **Team:** Open Thinkers — Om Karkele · Yash Kashid · Devayani Jadhav
 
----
+## 🚀 Overview
 
-## What is VID?
+**VID** is an AI-guided adaptive Linux kernel fuzzing framework built on top of **Syzkaller**.
 
-VID is an AI-powered Linux kernel fuzzing framework that sits **on top of Syzkaller**
-and guides kernel exploration using an adaptive intelligence layer.
+Traditional kernel fuzzing relies heavily on fixed scheduling heuristics. VID introduces a **syscall-level adaptive policy engine** that analyses runtime coverage and execution telemetry to prioritize system calls based on their observed exploration value.
 
-Standard Syzkaller uses fixed scheduling heuristics. VID replaces the decision
-layer with a contextual bandit (UCB) and, going forward, reinforcement learning
-policies that continuously learn from runtime coverage feedback to improve
-fuzzing efficiency.
+> **VID does not replace Syzkaller — it makes Syzkaller smarter.**
 
-**VID does not replace Syzkaller. It makes Syzkaller smarter.**
+## 🧠 How VID Works
 
----
+```text
+Linux Kernel
+     │
+     ▼
+ KCOV / KASAN
+     │
+     ▼
+ Syzkaller
+     │
+     ▼
+Runtime Telemetry
+     │
+     ▼
+Feature Extraction
+     │
+     ▼
+Adaptive Policy V2
+     │
+     ▼
+Syscall Priorities
+     │
+     ▼
+Guided Fuzzing
+     │
+     └──────────────► Feedback Loop
+```
 
-## Architecture
+VID converts runtime fuzzing behaviour into structured telemetry and uses that information to make adaptive syscall-level decisions.
 
-Full diagrams with explanations: [`docs/architecture.md`](docs/architecture.md)
-Linux Kernel (KCOV + KASAN)
-↓ telemetry
-Syzkaller
-↓ program metadata
-Feature Extraction Engine ← Yash
-↓ feature vector
-AI Policy Engine (UCB/RL) ← Om
-↓ action
-Syzkaller (loop)
-↓ results
-Benchmark & Analytics ← Yash
-↓ JSON output
-Visualization Dashboard ← Devayani
----
+## ⚡ Adaptive Policy V2
 
-## Team Responsibilities
+VID currently implements **AdaptiveSyscallV2**, which analyses syscall-level telemetry including:
 
-| Member | Module | Key Deliverable |
-|---|---|---|
-| Om Karkele | Kernel setup · AI policy engine | Ubuntu/QEMU/KCOV working · adaptive policy engine |
-| Yash Kashid | Feature extraction · Benchmark engine | Syzkaller integration · baseline vs adaptive results |
-| Devayani Jadhav | Visualization dashboard · Docs · Presentation | Enterprise dashboard · architecture diagrams |
+- New coverage contribution
+- Execution frequency
+- Error behaviour
+- Maximum observed coverage
+- Runtime syscall signals
 
----
+### Current Validated Run
 
-## Running the Dashboard
+| Metric | Result |
+|---|---:|
+| Execution Events | **3,584** |
+| Syscall Observations | **6,405** |
+| Syscalls Analysed | **296** |
+| High Priority | **75** |
+| Medium Priority | **103** |
+| Low Priority | **118** |
+| Average Policy Score | **0.5531** |
+
+Policy decisions are generated at:
+
+```text
+results/policy_v2_decisions.json
+```
+
+## 📊 Real Telemetry
+
+VID works with real Linux kernel fuzzing telemetry:
+
+```text
+results/
+├── coverage.json
+├── crashes.json
+├── executions.json
+├── syscall_events.jsonl
+├── syscall_events_sample.jsonl
+└── policy_v2_decisions.json
+```
+
+Current dataset:
+
+- **9,540** execution records
+- **68** coverage records
+- **3,584** execution events used by Policy V2
+- **6,405** syscall observations
+- **296** syscalls analysed
+- **0** recorded kernel crashes in the current dataset
+
+The dashboard reports unavailable or zero measurements honestly instead of using fabricated runtime data.
+
+## 🖥️ Visualization Dashboard
+
+VID includes a **React + TypeScript** dashboard for analysing:
+
+- Coverage growth
+- Execution telemetry
+- Syscall observations
+- Adaptive Policy V2 decisions
+- Syscall priorities
+- Crash analytics
+- System and architecture information
+- Reports and analytics
+
+### Run the Dashboard
 
 ```bash
 cd visualization/dashboard
 npm install
 npm run dev
-# Open http://localhost:5173
 ```
 
-The dashboard reads real fuzzing telemetry from `results/coverage.json`,
-`results/crashes.json`, and `results/executions.json` at the repo root.
+Open:
 
----
+```text
+http://localhost:5173
+```
 
-## Current Project Status (as of Aug 17, 2026)
+## ▶️ Run Adaptive Policy V2
 
-- [x] Linux kernel with KCOV + KASAN compiled and booting in QEMU (stock test kernel)
-- [x] Syzkaller baseline fuzzing validated — coverage growing, stable exec rate
-- [x] Feature Extraction pipeline — coverage.json, crashes.json, executions.json (real data)
-- [x] Visualization dashboard — 11 pages, real data wired in, export functions working
-- [x] AI Policy V1 (heuristic) built and evaluated
-- [ ] Unified syscall-level telemetry (Issue #23)
-- [ ] AI Policy V2 — adaptive bandit policy (Issue #24)
-- [ ] Benchmark comparison — requires 2 policies (blocked on Policy V2)
-- [ ] Real Linux 7.1.8 kernel connection (Phase B — pending kernel image)
+From the repository root:
 
----
+```bash
+python -m scripts.run_policy_v2
+```
 
-## Repository Structure
+Expected output:
+
+```text
+Running VID Adaptive Policy V2...
+
+Execution events : 3584
+Syscall events   : 6405
+
+Policy            : AdaptiveSyscallV2
+Syscalls analyzed: 296
+High priority     : 75
+Medium priority   : 103
+Low priority      : 118
+Average score     : 0.5531
+```
+
+## 🛠️ Technology Stack
+
+**Kernel & Fuzzing:** `Linux 7.1.8` · `Syzkaller` · `KCOV` · `KASAN` · `QEMU`
+
+**Adaptive Intelligence:** `Python` · `Adaptive Syscall-Level Policy`
+
+**Dashboard:** `React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Recharts`
+
+**Testing:** `Pytest`
+
+## 📁 Repository Structure
+
+```text
 Vid/
-├── kernel/ # Om — kernel build, QEMU/KVM setup
-├── ai-engine/ # Om — adaptive policy engine
-├── feature-extraction/ # Yash — KCOV/crash parsing scripts
-├── benchmark/ # Yash — experiment automation
+├── kernel/                   # Linux kernel configuration
+├── src/
+│   ├── feature_extraction/  # Runtime telemetry extraction
+│   ├── policy_engine/       # Adaptive Policy V2
+│   ├── integration/
+│   └── utils/
+├── scripts/                  # Policy execution scripts
+├── results/                  # Real fuzzing telemetry and results
+├── tests/                    # Automated tests
 ├── visualization/
-│ └── dashboard/ # Devayani — React dashboard
-├── results/ # Shared: real fuzzing telemetry JSON
-└── docs/
-├── architecture.md # All 7 architecture diagrams
-└── screenshots/ # Diagram PNGs + dashboard screenshots
+│   └── dashboard/            # React visualization dashboard
+└── docs/                     # Architecture and documentation
+```
+
+## ✅ Validation
+
+```text
+Adaptive Policy V2       ✓ Implemented
+Syscall Telemetry        ✓ Implemented
+Real Telemetry           ✓ Integrated
+Policy Decisions         ✓ Generated
+Dashboard                ✓ Integrated
+Dashboard Build          ✓ Passed
+Automated Tests          ✓ 4 Passed
+```
+
+Run tests from the repository root:
+
+```bash
+python -m pytest
+```
+
+## 👥 Team — Open Thinkers
+
+| Member | Responsibility |
+|---|---|
+| **Om Karkele** | Kernel Setup · System Architecture · Adaptive Policy Engine |
+| **Yash Kashid** | Feature Extraction · Telemetry · Benchmarking |
+| **Devayani Jadhav** | Visualization · Documentation · Presentation |
+
+## 📄 Documentation
+
+Detailed architecture and system diagrams:
+
+```text
+docs/architecture.md
+```
+
+Baseline results:
+
+```text
+docs/baseline-results.md
+```
+
+Dashboard documentation:
+
+```text
+visualization/dashboard/README.md
+```
+
+Architecture diagrams:
+
+```text
+docs/screenshots/
+```
+
 ---
 
-## Submission Deadline — 25 August 2026
+## 🎯 Vision
+
+VID aims to make Linux kernel fuzzing more **adaptive, coverage-aware, observable, and intelligence-driven** by closing the feedback loop between kernel execution telemetry and fuzzing decisions.
+
+> **Execute → Observe → Learn → Prioritize → Explore**
